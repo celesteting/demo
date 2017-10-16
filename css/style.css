@@ -49,7 +49,7 @@ a.link_rule:hover{ text-decoration: underline; }
 
 /*css3*/
 .ban_tit{-webkit-animation:fadeindown .8s ease-in-out both;animation:fadeindown .8s ease-in-out both;}
-.ban_tips{-webkit-animation:fadeindown .8s .5s ease-in-out both;animation:fadeindown .8s .5s ease-in-out both;}
+.ban_tips{-webkit-animation:fadeindown .8s .8s ease-in-out both;animation:fadeindown .8s .8s ease-in-out both;}
 
 
 
