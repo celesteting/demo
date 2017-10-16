@@ -1,0 +1,70 @@
+html,button,input,optgroup,select,textarea{font:14px/1.5 Arial,PingfangSC,"Microsoft YaHei",sans-serif;-webkit-text-size-adjust:100%}body,h1,h2,h3,h4,h5,h6,p,ul,ol,dd,dl,th,input,button,optgroup,select,textarea,fieldset,figure{margin:0;padding:0;font-weight:normal;font-size:100%;color:inherit}article,aside,footer,header,nav,section,figcaption,figure,main,details,menu,canvas{display:block}hr{box-sizing:content-box;height:0;overflow:visible}code,kbd,pre,samp{font-family:monospace;font-size:1em}a{background-color:transparent}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:0;text-decoration:underline}dfn{font-style:italic}mark{background-color:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}audio,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]),[hidden],template{display:none;height:0}img{border:0}svg:not(:root){overflow:hidden}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:0}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto;resize:none}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}table{border-collapse:collapse;border-spacing:0}ul,ol{list-style:none}input[type="text"],input[type="tel"],a{-webkit-tap-highlight-color:transparent}input::-moz-placeholder,textarea::-moz-placeholder,input:-ms-input-placeholder,textarea:-ms-input-placeholder,input::-webkit-input-placeholder,textarea::-webkit-input-placeholder,input::placeholder,textarea::placeholder{color:#ccc}em{font-style:normal}body,a{color:#333}body{background:#f8f8f8}a{text-decoration:none;transition:color .2s}em{font-style:normal}input{outline-color:#e41e27}.fl{float:left!important}.fr{float:right!important}.clr_red{color:#f52f3e!important}.clr_yellow{color:#ffa810!important}.hide{position:absolute;left:-9999px}.g_tips{position:relative;z-index:101;text-align:center;padding:20px;background:#ffdc87;font-size:14px;color:#666}.wrap{position:relative;width:100%;min-width:1000px}.modwp{position:relative;margin:0 auto;width:1200px}.modwp:after{content:"";display:block;height:0;clear:both}.header{position:relative;z-index:100;height:70px;width:100%;min-width:1000px;border-bottom:3px solid #f52f3e;background:#fff}.header .site_logo{float:left;position:relative;top:10px;height:52px;margin-right:20px}.header .site_logo img{position:absolute;left:0;top:0;height:100%}.header .info_right{float:right}.header .signin,.header .unsignin,.header .attach_wp{float:left;position:relative;top:15px;height:40px}.header .signin,.header .unsignin{line-height:40px;color:#666}.header .unsignin .link_signin{font-size:16px}.header .signin .username{color:#666}.header .signin .quit{margin-left:22px;color:#999}.header .signin .quit:hover{color:#f52f3e}.header .attach_wp{margin-left:30px}.header .btn_account{display:block;width:127px;height:40px;line-height:40px;text-align:center;color:#fff;background:#f52f3e;border-radius:20px;font-size:16px}.header .btn_account:hover{background:#f7222c}.header .welcome_txt{display:none}.footer{min-width:1000px;padding:40px 0;background:#323232;color:#999}.footer a{color:#999}.footer a:hover{text-decoration:underline}.footer .feature_wp{margin-bottom:38px;overflow:hidden}.footer .feature_wp li{float:left;margin-right:10px;width:150px;text-align:center}.footer .feature_wp .ico_feature{display:block;margin:0 auto 16px;width:80px;height:80px;background:url(../img/spr24_licai_header.png) no-repeat 0 0}.footer .ico_feature.feature_2{background-position:-100px 0}.footer .ico_feature.feature_3{background-position:-200px 0}.footer .ico_feature.feature_4{background-position:-300px 0}
+.footer .contact_info{position:absolute;right:0;top:10px;text-align:right}.footer .contact_info .telephone{margin:6px 0;font-size:24px}.footer .site_nav_wp{padding-top:26px;border-top:1px dashed #494949;text-align:center}.footer nav,.footer .copyright{display:inline-block;vertical-align:top}.footer nav a,.footer .d_line,.footer .copyright{margin:0 6px}.loading_wp{position:relative;height:100%}.loading_wp img{position:absolute;left:50%;top:50%;margin:-25px 0 0 -25px;width:50px;height:50px}
+/*update by lijanchan 2016.12.2*/
+.header{border-bottom: 1px solid #e1e1e1;}
+.header .site_logo{height: 44px;top: 13px;}
+.header .head_nav{float: left;padding-top: 15px;margin-left: 122px;}
+.header .head_nav li{float: left;margin: 0 25px;}
+.header .head_nav a{font-size: 16px;color: #333;text-decoration: none;line-height: 40px;}
+.header .head_nav a.cur,.header .head_nav a:hover{text-decoration: none;color: #f52f3e;}
+.header .unsignin .link_signin{float: left;width: auto;margin-left: 20px;}
+.header .unsignin .link_signin:hover{background: none;color: #f52f3e;}
+.header .signin{margin-right: 0;}
+.header .signin .btn_note{float: left;font-size: 0;line-height: 0;background: url('../img/spr24_licai_header.png') no-repeat -220px 0;width: 15px;height: 19px;position: relative;top: 11px;margin-right: 20px;}
+.header .signin .btn_note:hover{background-position: -242px 0;}
+.header .signin .btn_note .num{position: absolute;top: -7px;left: 50%;margin-left: 1px;font-style: normal;width: 18px;height: 18px;text-align: center;line-height: 18px;border-radius: 18px;background: #f63f4d;font-size: 12px;color: #fff;animation:note_num 2s ease both infinite;}
+@keyframes note_num{
+0%,5%,12.5%,20%,25%,100%{transform:translateY(0);}
+10%{transform:translateY(-4px);}
+15%{transform:translateY(-2px);}
+}
+.header .signin .user_box{float: left;position: relative;width: 40px;height: 50px;}
+.header .signin .btn_face{display: block;width: 36px;height: 36px;border-radius: 100%;border: 2px solid #fff;transition: .3s;}
+.header .signin .btn_face img{display: block;width: 100%;height: 100%;border-radius: 100%;}
+.header .signin .btn_face:hover{border-color: #f52f3e;}
+.header .signin .user_nav{position: absolute;width: 124px;background: #fff;border-radius: 4px;box-shadow: 0 0 3px rgba(0,0,0,.3);border: 1px solid #e3e3e3;border-color: rgba(0,0,0,0);padding-top: 5px;top: 46px;right: 9999px;opacity: 0;transition: opacity .3s;}
+.header .signin .user_box:hover .user_nav{right: 0;opacity: 1;}
+.header .signin .user_nav a{display: block;text-indent: 20px;text-align: left;}
+.header .signin .btn_name{font-size: 14px;color: #f52f3e;line-height: 44px;border-bottom: 1px dashed #e3e3e3;white-space: nowrap;position: relative;overflow: hidden;text-overflow: ellipsis;padding-right: 20px;}
+.header .signin .user_nav .btn_box{padding: 5px 0;margin: 0;}
+.header .signin .btn_nav{font-size: 14px;color: #383838;line-height: 33px;}
+
+.footer{background: #f2f2f2;}
+.footer .contact_info .telephone{margin: 0;font-size: 18px;color: #808080;}
+.footer .contact_info{left: 0; right: auto;text-align: left;top: 15px;font-size: 12px;color: #999;}
+.footer .contact_info .tel_tt{margin-top: 20px;color: #333;}
+.footer .feature_wp{padding-left: 220px;font-size: 12px;color: #333;}
+.footer .feature_wp li{width: 140px; margin-right: 4px;}
+.footer .feature_wp li:last-child{margin-left: 94px;}
+.footer .feature_wp .ico_feature{background: none;position: relative;margin: 0 auto 0;}
+.footer .feature_wp .ico_feature:before{content: "";position: absolute;background: url('../img/spr24_licai_header.png');top: 50%;left: 50%;}
+.footer .feature_wp .feature_1:before{background-position: 0 0;width: 46px;height: 46px;margin: -23px 0 0 -23px;}
+.footer .feature_wp .feature_2:before{background-position: -50px 0;width: 46px;height: 46px;margin: -23px 0 0 -23px;}
+.footer .feature_wp .feature_3:before{background-position: -100px 0;width: 46px;height: 46px;margin: -23px 0 0 -23px;}
+.footer .feature_wp .feature_4:before{background-position: -150px 0;width: 56px;height: 47px;margin: -24px 0 0 -28px;}
+.footer .code_box{position: absolute;top: -5px;right: 187px;}
+.footer .code_box img{display: block;width: 80px;height: 80px;}
+.footer .code_box .txt_code{text-align: center;font-size: 12px;color: #333;line-height: 28px;}
+.footer .site_nav_wp{border-top: 1px solid #e3e3e3;padding-top: 20px;}
+.footer .copyright{float: left;font-size: 12px;}
+.footer .site_nav_wp nav{float: right;font-size: 12px;}
+.footer .site_nav_wp nav a{color: #666;}
+.footer .copyright{margin-left: 0;}
+.footer .site_nav_wp nav a:last-child{margin-right: 0;}
+.footer .site_nav_wp nav a:hover{text-decoration: none;color: #f52f3e;}
+
+@media only screen and (max-width: 1080px) {
+    .header,.wrap,.page_tab_wp,.footer{min-width: 1000px;}
+    .modwp{width: 900px;}
+    .header{height: 50px;}
+    .header .site_logo{top: 7px; height: 36px;}
+    .header .signin, .header .unsignin, .header .attach_wp{top: 10px; height: 30px; line-height: 30px;}
+    .header .btn_account,.header .unsignin .link_signin{width: 97px; height: 30px; line-height: 30px; font-size: 14px; border-radius: 15px;}
+    .login_page .header .welcome_txt{height: 50px; line-height: 50px;}
+    .header .head_nav{padding-top: 6px;margin-left: 70px;}
+    .header .unsignin{top: 10px;}
+    .header .signin{top: 5px;}
+    .footer .feature_wp{padding-left: 160px;}
+    .footer .code_box{right: 0;}
+}
+
