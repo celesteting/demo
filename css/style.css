@@ -48,66 +48,9 @@ a.link_rule:hover{ text-decoration: underline; }
 
 
 /*css3*/
-.ban_tit{-webkit-animation:tada 1s ease-in-out both;animation:tada 1s ease-in-out both;}
-.ban_tips{-webkit-animation:tada 1s .6s ease-in-out both;animation:tada 1s .6s ease-in-out both;}
+.ban_tit{-webkit-animation:fadeindown .8s ease-in-out both;animation:fadeindown .8s ease-in-out both;}
+.ban_tips{-webkit-animation:fadeindown .8s .5s ease-in-out both;animation:fadeindown .8s .5s ease-in-out both;}
 
-
-
-@-webkit-keyframes tada {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-    opacity: 0;
-  }
-
-  10%, 20% {
-    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-  }
-
-  30%, 50%, 70%, 90% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-  }
-
-  40%, 60%, 80% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-@keyframes tada {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-    opacity: 0;
-  }
-
-  10%, 20% {
-    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-  }
-
-  30%, 50%, 70%, 90% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-  }
-
-  40%, 60%, 80% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
 
 
 @-webkit-keyframes fadeindown{
@@ -118,52 +61,3 @@ a.link_rule:hover{ text-decoration: underline; }
 	from{-webkit-transform:translateY(-100px);transform:translateY(-100px);opacity:0;}
 	to{-webkit-transform:none;transform:none;opacity:1;}
 }
-
-.icon_coin1{ -webkit-animation:lflyin1 .5s .5s ease-in-out both;animation:lflyin1 .5s .5s ease-in-out both; }
-@-webkit-keyframes lflyin1{
-	from{-webkit-transform:translate(-450px);transform:translate(-450px); opacity:0;}
-	to{-webkit-transform:none;transform:none; opacity:1;}
-}
-@keyframes lflyin1{
-	from{-webkit-transform:translate(-450px);transform:translate(-450px); opacity:0;}
-	to{-webkit-transform:none;transform:none; opacity:1;}
-}
-.icon_coin3{ -webkit-animation:lflyin2 .5s .5s ease-in-out both;animation:lflyin2 .5s .5s ease-in-out both; }
-.icon_coin4{ -webkit-animation:lflyin2 .5s .5s ease-in-out both;animation:lflyin2 .5s .5s ease-in-out both; }
-@-webkit-keyframes lflyin2{
-	from{-webkit-transform:translate(-450px,150px);transform:translate(-450px,150px); opacity:0;}
-	to{-webkit-transform:none;transform:none;opacity:1;}
-}
-@keyframes lflyin2{
-	from{-webkit-transform:translate(-450px,150px);transform:translate(-450px,150px); opacity:0;}
-	to{-webkit-transform:none;transform:none;opacity:1;}
-}
-.icon_coin2,.icon_coin5{ -webkit-animation:lflyin3 .5s .5s ease-in-out both;animation:lflyin3 .5s .5s ease-in-out both; }
-@-webkit-keyframes lflyin3{
-	from{-webkit-transform:translate(-450px,-150px);transform:translate(-450px,-150px); opacity:0;}
-	to{-webkit-transform:none;transform:none;opacity:1;}
-}
-@keyframes lflyin3{
-	from{-webkit-transform:translate(-450px,-150px);transform:translate(-450px,-150px); opacity:0;}
-	to{-webkit-transform:none;transform:none;opacity:1;}
-}
-.icon_coin6{ -webkit-animation:rflyin1 .5s .5s ease-in-out both;animation:rflyin1 .5s .5s ease-in-out both; }
-.icon_coin7{ -webkit-animation:rflyin1 .5s .5s ease-in-out both;animation:rflyin1 .5s .5s ease-in-out both; }
-@-webkit-keyframes rflyin1{
-	from{-webkit-transform:translate(450px,-150px);transform:translate(450px,-150px); opacity:0;}
-	to{-webkit-transform:none;transform:none;opacity:1;}
-}
-@keyframes rflyin1{
-	from{-webkit-transform:translate(450px,-150px);transform:translate(450px,-150px); opacity:0;}
-	to{-webkit-transform:none;transform:none;opacity:1;}
-}
-.icon_coin8{ -webkit-animation:rflyin2 .5s .5s ease-in-out both;animation:rflyin2 .5s .5s ease-in-out both; }
-@-webkit-keyframes rflyin2{
-	from{-webkit-transform:translate(450px,150px);transform:translate(450px,150px); opacity:0;}
-	to{-webkit-transform:none;transform:none;opacity:1;}
-}
-@keyframes rflyin2{
-	from{-webkit-transform:translate(450px,150px);transform:translate(450px,150px); opacity:0;}
-	to{-webkit-transform:none;transform:none;opacity:1;}
-}
-
