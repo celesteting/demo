@@ -145,6 +145,6 @@ a.link_nor:active{ text-decoration: underline; }
 
 .loan_pop{ height: 6.16rem; }
 .loan_tips{ color:#fef6c5; font-size: .3rem; line-height: .4rem; padding: .14rem 0 .24rem; }
-.loan_box{ flex-direction: column; box-sizing: border-box; border-radius: 50%; border:.03rem solid #fff; box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.5) inset; width: 2.36rem; height: 2.36rem; background-size: 6.4rem auto; display: flex; justify-content: center; align-items: center; margin:0 auto; }
+.loan_box{ flex-direction: column; box-sizing: border-box; border-radius: 50%; border:.03rem solid rgba(255, 255, 255, 0.7); box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.5) inset; width: 2.36rem; height: 2.36rem; background-size: 6.4rem auto; display: flex; justify-content: center; align-items: center; margin:0 auto; }
 .loan_box .mon{ color:#fbff24; font-weight: bold; font-size: .34rem; }
 .loan_box .txt{ font-size: .22rem;  }
