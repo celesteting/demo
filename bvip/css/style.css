@@ -44,7 +44,7 @@ a,button,button:active,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
 .asteps_tit{ font-size: .36rem; }
 .asteps_tips{ font-size: .28rem; font-weight: bold;	}
 .icon_step_tip{ font-size: .2rem; line-height: .2rem; padding-top: .2rem; position: absolute; text-align: center; width: .66rem; height: .35rem; top: 0; right: .3rem; font-weight: bold; } 
-.icon_step_tip:before,.icon_step_tip:after{ content: ''; width: 0; height: 0; position: absolute; bottom: -.13rem; }
+.icon_step_tip:before,.icon_step_tip:after{ content: ''; width: 0; height: 0; position: absolute; bottom: -.12rem; }
 .icon_step_rtip{ background: #ff3030; color:#ffeec3; }
 .icon_step_ytip{ background: #ffc400; color:#ff3030; }
 .icon_step_btip{ background: #bd9a4b; color:#ffeec3; }
@@ -145,6 +145,6 @@ a.link_nor:active{ text-decoration: underline; }
 
 .loan_pop{ height: 6.16rem; }
 .loan_tips{ color:#fef6c5; font-size: .3rem; line-height: .4rem; padding: .14rem 0 .24rem; }
-.loan_box{ flex-direction: column; box-sizing: border-box; border-radius: 50%; border:.03rem solid rgba(255, 255, 255, 0.7); box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.5) inset; width: 2.36rem; height: 2.36rem; background-size: 6.4rem auto; display: flex; justify-content: center; align-items: center; margin:0 auto; }
+.loan_box{ flex-direction: column; box-sizing: border-box; border-radius: 50%; border:.03rem solid rgba(255, 255, 255, 0.7); box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.24) inset; width: 2.36rem; height: 2.36rem; background-size: 6.4rem auto; display: flex; justify-content: center; align-items: center; margin:0 auto; }
 .loan_box .mon{ color:#fbff24; font-weight: bold; font-size: .34rem; }
 .loan_box .txt{ font-size: .22rem;  }
