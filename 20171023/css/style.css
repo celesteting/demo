@@ -21,8 +21,7 @@ a,button,button:active,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
 .pd_reb_bag{ background: url(../img/spr_redbag_ani.png) no-repeat; width: 1.4rem; height: 1.4rem; background-size: 32.2rem auto; }
 
 .cover{ display: none; background: #000; opacity: .5; position: fixed; z-index: 100; left: 0; right: 0; top: 0; bottom: 0; }
-.reb_box{ -webkit-transform: scale(0) translateY(-50%); transform: scale(0) translateY(-50%); -webkit-transition: all .5s; transition: all .5s; background-position: 0 -1.9rem; width: 4.92rem; height: 6.19rem; position: fixed;  right: .4rem; top: 50%; background-size: 6.4rem auto; -webkit-transform-origin: 100% 0;  transform-origin: 100% 0;  z-index: 101; }
-.reb_box.on{-webkit-transform: scale(1) translate(50%,-50%); transform: scale(1) translate(50%,-50%); right: 50%; }
+.reb_box{ background-position: 0 -1.9rem; width: 4.92rem; height: 6.19rem; position: fixed;  right: .4rem; top: 50%; background-size: 6.4rem auto; -webkit-transform-origin: 100% 0;  transform-origin: 100% 0;  z-index: 101; }
 .rb_box_top{ height: 3.55rem; }
 .btn_clo{ width: .2rem; height: .2rem; background-size: 6.4rem auto; position: absolute; right: .2rem; top: .2rem; z-index: 2; }
 .btn_open{ background-position: -.3rem 0; margin: 0 auto; display: block; width: 1.76rem; height: 1.76rem; background-size: 6.4rem auto; }
@@ -34,7 +33,7 @@ a,button,button:active,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
 .logo_tip{ font-size: .22rem; line-height: .22rem; }
 .rb_box_tit{ font-size: .4rem; padding-top: .5rem; line-height: .4rem; }
 
-
+/* css3 */
 .pd_reb_bag.ani{ -webkit-animation: ani 1.8s steps(23) infinite;  animation: ani 1.8s steps(23) infinite; }
 @-webkit-keyframes ani{
    0%{ background-position: 0 0; }
@@ -43,4 +42,114 @@ a,button,button:active,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
 @keyframes ani{
    0%{ background-position: 0 0; }
    100%{ background-position: -32.2rem 0rem; }
+}
+
+.reb_box.appear{ -webkit-animation: bounceIn 1s  both;  animation: bounceIn 1s both;  }
+@-webkit-keyframes bounceIn {
+    from, 0%, 40%, 60%, 73.3%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0, 0, 0);
+    transform: scale3d(0, 0, 0) translate(50%,-50%);
+
+  }
+
+  40% {
+    -webkit-transform: scale3d(1.08, 1.08, 1.08);
+    transform: scale3d(1.08, 1.08, 1.08)  translate(50%,-50%);
+    right:50%;
+  }
+
+  60% {
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03)  translate(50%,-50%);
+    right:50%;
+  }
+
+  73.3% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.04, 1.04, 1.04);
+    transform: scale3d(1.04, 1.04, 1.04) translate(50%,-50%);
+    right:50%;
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)  translate(50%,-50%);
+    right:50%;
+  }
+}
+
+@keyframes bounceIn {
+  from, 0%, 40%, 60%, 73.3%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0, 0, 0);
+    transform: scale3d(0, 0, 0) translate(50%,-50%);
+
+  }
+
+  40% {
+    -webkit-transform: scale3d(1.08, 1.08, 1.08);
+    transform: scale3d(1.08, 1.08, 1.08)  translate(50%,-50%);
+    right:50%;
+  }
+
+  60% {
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03)  translate(50%,-50%);
+    right:50%;
+  }
+
+  73.3% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.04, 1.04, 1.04);
+    transform: scale3d(1.04, 1.04, 1.04) translate(50%,-50%);
+    right:50%;
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)  translate(50%,-50%);
+    right:50%;
+  }
+}
+
+
+.reb_box.disappear{ -webkit-animation: disappear .6s  both;  animation: disappear .6s both; }
+@-webkit-keyframes disappear{
+   0% {
+	    opacity: 1;
+	    -webkit-transform: scale3d(1, 1, 1);
+	    transform: scale3d(1, 1, 1)  translate(50%,-50%);
+	    right:50%;
+	}
+   to{  
+   		opacity: 0;
+    	-webkit-transform: scale3d(0, 0, 0) translate(-50%,-50%);
+    	right: .4rem; 
+    }
+}
+@keyframes disappear{
+   0% {
+	    opacity: 1;
+	    -webkit-transform: scale3d(1, 1, 1);
+	    transform: scale3d(1, 1, 1)  translate(50%,-50%);
+	    right:50%;
+	}
+   to{  
+   		opacity: 0;
+    	transform: scale3d(0, 0, 0)  translate(-50%,-50%);
+    	right: .4rem; 
+    }
 }

@@ -30,16 +30,26 @@
 
 	<script src="js/jquery.min.js"></script>
 	<script>
+		var a = document.getElementsByTagName('a');
+		for(var i = 0; i < a.length; i++)
+		{
+		  a[i].addEventListener('touchstart',function(){},false);
+		}
+
+		$(".pendant").children(".pd_reb_bag").removeClass("ani");
+	    $(".cover").show();
+		$(".reb_box").addClass("appear").removeClass("disappear");
+
 		$(".pendant").click(function(){
 	        $(this).children(".pd_reb_bag").removeClass("ani");
 	        $(".cover").show();
-	        $(".reb_box").addClass("on");
+	        $(".reb_box").addClass("appear").removeClass("disappear");
 
     	});
     	$(".btn_clo").click(function(){
 	        $(".pendant").children(".pd_reb_bag").addClass("ani");
 	        $(".cover").hide();
-	        $(".reb_box").removeClass("on");
+	        $(".reb_box").removeClass("appear").addClass("disappear");
     	});
 	</script>
 </body>
