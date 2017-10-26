@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>成交确认</title>
+<meta name="applicable-device" content="mobile">
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap turnover_pay_page"> 
+        <div class="main"> 
+            <div class="to_pay_top">
+            	<!-- to_pay_tinfon 完善收货信息 -->
+            	<div class="to_pay_tinfo">
+	            	<p><span class="tit">收货人：</span><span class="name">张运东</span><span class="phone">18902439863</span></p>
+	            	<p><span class="tit">收货地址：</span><span class="addr">广东省深圳市南山区软件园11栋8楼啦啦啦广东省深圳市南山区软件园11栋8楼啦啦啦</span></p>
+            	</div>
+            	<div class="to_pay_tinfon" style="display: none;">
+            		<a href="#" class="btn_inp">完善收货信息</a>
+            	</div>
+            </div>
+
+            <div class="to_pay_pinfo">
+            	<div class="to_pay_pinfo_top">
+            		<div class="to_pay_pinfo_timg"><img src="https://dummyimage.com/240x240" alt=""/></div>
+            		<div class="to_pay_pinfo_txt">
+            			<p>市场价：<span>￥340.20</span></p>
+            			<p>成交价：<span class="fc_red">￥20.00</span><span class="bpri">￥20.50</span></p>
+            			<p>成交时间：<span>2017-09-26 12:03:23</span></p>
+            		</div>
+            	</div>
+            	<div class="form_ctrl to_pay_bmark">
+                    <label for="">买家留言：</label>
+                    <input type="text" placeholder="选填：对本次交易的说明" class="add_remark"/>
+                </div>
+            </div>
+
+            <div class="proc_product_box">
+                <h3 class="nor_tit">选择支付方式</h3>
+                <div class="to_pay_way">
+                    <ul class="to_pay_way_list">
+                    	<li>
+                    		<div class="topay_wl_left">	
+								<div class="to_pay_wl_img"><img src="images/logo_zfb.png" alt=""/></div>
+								<div class="topay_wl_cen">
+									<p class="topay_wl_cen_t1">支付宝</p>
+									<p class="topay_wl_cen_t2">最低2元起</p>
+								</div>
+                    		</div>
+                    		<!-- on 为选中态 -->
+                    		<a href="#" class="btn_cpw on"></a>
+                    	</li>
+                    	<li>
+                    		<div class="topay_wl_left">	
+								<div class="to_pay_wl_img"><img src="images/logo_wx.png" alt=""/></div>
+								<div class="topay_wl_cen">
+									<p class="topay_wl_cen_t1">微信</p>
+									<p class="topay_wl_cen_t2">最低2元起</p>
+								</div>
+                    		</div>
+                    		<a href="#" class="btn_cpw"></a>
+                    	</li>
+                    </ul>
+                </div>
+                
+                <p class="agree_rule">
+				<!-- on 为选中态 -->
+                	<a href="#" class="btn_arule on"></a>我同意<a href="#" class="fc_red link_rule">《用户协议》</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="to_pay_nav">
+    	<p class="pay_mon_txt">实际金额:<strong class="fc_red">￥20.00</strong></p>
+    	<a href="#" class="btn_buy">立即支付</a>
+    </div>
+</body>
+</html>
