@@ -34,7 +34,7 @@
 					</ul>
 					<div class="ban_ct_bot">
 						<a href="#" class="ban_ct_blink"></a>
-						<span class="icon_tip_tt txt_hide">头条</span><span class="ban_ct_btxt">恭喜<strong>好人是我</strong>以<strong>78元</strong>拍的iPhone啦啦啦</span>
+						<span class="icon_tip_tt txt_hide">头条</span><span class="ban_ct_btxt">恭喜<strong class="uname">好人是我</strong>以<strong>78元</strong>拍的iPhone啦啦啦</span>
 						<div class="ban_ct_bimg"><img src="https://dummyimage.com/90x90" alt=""/></div>
 						<i class="icon_tri_next"></i>
 					</div>
@@ -83,10 +83,10 @@
 				</div>
 				<div class="auc_cont" id="auc_cont_id">
 					<div class="auc_tab">
-						<ul class="auc_cont">
+						<ul class="auc_cont_list" style="display:none;">
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll">+ 收藏</i>
+								<a href="#" class="icon_tip_coll">+ 收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -95,7 +95,7 @@
 							</li>
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll">+ 收藏</i>
+								<a href="#" class="icon_tip_coll">+ 收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -104,7 +104,7 @@
 							</li>
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll">+ 收藏</i>
+								<a href="#" class="icon_tip_coll">+ 收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -113,7 +113,7 @@
 							</li>
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll">+ 收藏</i>
+								<a href="#" class="icon_tip_coll">+ 收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -121,12 +121,17 @@
 								<a href="#" class="btn_att">参与竞拍</a>
 							</li>
 						</ul>
+						<!-- 未参与竞拍 -->
+						<div class="auc_null">
+							<div class="auc_null_img"><img src="images/jp_null.png" alt=""/></div>
+							<p class="auc_null_tip">您还未参与竞拍哦~</p>
+						</div>
 					</div>
 					<div class="auc_tab" style="display: none">
-						<ul class="auc_cont">
+						<ul class="auc_cont_list">
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll">+ 收藏</i>
+								<a href="#" class="icon_tip_coll">+ 收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -135,7 +140,7 @@
 							</li>
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll">+ 收藏</i>
+								<a href="#" class="icon_tip_coll">+ 收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -144,7 +149,7 @@
 							</li>
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll">+ 收藏</i>
+								<a href="#" class="icon_tip_coll">+ 收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -153,7 +158,7 @@
 							</li>
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll">+ 收藏</i>
+								<a href="#" class="icon_tip_coll">+ 收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -163,11 +168,11 @@
 						</ul>
 					</div>
 					<div class="auc_tab" style="display: none">
-						<ul class="auc_cont">
+						<ul class="auc_cont_list">
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
 								<!-- icon_tip_colled 已收藏 -->
-								<i class="icon_tip_coll icon_tip_colled">已收藏</i>
+								<a href="#" class="icon_tip_coll icon_tip_colled">已收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -176,7 +181,7 @@
 							</li>
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll icon_tip_colled">已收藏</i>
+								<a href="#" class="icon_tip_coll icon_tip_colled">已收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -185,7 +190,7 @@
 							</li>
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll icon_tip_colled">已收藏</i>
+								<a href="#" class="icon_tip_coll icon_tip_colled">已收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
@@ -194,7 +199,7 @@
 							</li>
 							<li>
 								<a href="#" class="ban_ct_blink"></a>
-								<i class="icon_tip_coll icon_tip_colled">已收藏</i>
+								<a href="#" class="icon_tip_coll icon_tip_colled">已收藏</a>
 								<div class="auc_img"><img src="https://dummyimage.com/360x360" alt=""/></div>
 								<p class="auc_time">00:00:08</p>
 								<p class="auc_mon"><strong>￥</strong>80.90</p>
