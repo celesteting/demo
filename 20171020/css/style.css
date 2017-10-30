@@ -167,7 +167,7 @@ img{ width: 100%; height: 100%; }
 .sord_pic_list li:first-child{ margin-left: 0; }
 .sord_pro_name{ font-size: .36rem; color:#979AA0; margin:.3rem 0 .15rem; } 
 .sord_comm{ font-size: .45rem; display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-.sord_pic_list{ margin: .24rem 0 .69rem;  }
+.sord_pic_list{ margin: .24rem 0 0rem;  }
 .sord_list li:last-child .sord_pic_list{ margin: .24rem 0 0; }
 
 .succ_record_list li{ padding:0 .39rem; flex-direction: column; background: #fff; height: 2.7rem; margin-bottom: .12rem; display: flex; justify-content: center; }
