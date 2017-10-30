@@ -317,3 +317,6 @@ a.link_rule:active{ text-decoration: underline; }
 .pay_pop_btn a{ color: #3B424C; font-size: .51rem; height: 100%; flex: 1; display: flex; justify-content: center; align-items: center; }
 a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 
+/* 20171030 caihuiting */
+.sord_page{ padding-bottom: 0; }
+/* 20171030 caihuiting end */
