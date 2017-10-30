@@ -358,7 +358,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 
 .my_auc_page{ height: 100%; padding-bottom: 0; }
 .my_auc_nav{ height: 1.2rem; background: #fff; width: 10.8rem; position: relative; overflow: hidden; }
-.my_auc_nav:after{ content: ''; width: 1.2rem; height: .54rem; background: linear-gradient(to left, rgba(255, 255, 255, 1),rgba(255, 255, 255, .2)); position: absolute; right: 0; top: 50%;  -webkit-transform: translateY(-50%);  transform: translateY(-50%); }
+.my_auc_nav:after{ content: ''; width: 1.2rem; height: .54rem; background: linear-gradient(to left, rgba(255, 255, 255, 1),  rgba(255, 255, 255, 1) 36%,rgba(255, 255, 255, 0)); position: absolute; right: 0; top: 50%;  -webkit-transform: translateY(-50%);  transform: translateY(-50%); }
 .my_auc_nav_list{ height: 100%; display: flex;  width: 13rem; position: absolute; left: 0; top: 0; } 
 .my_auc_nav_list li{ font-weight: bold; width: 2.16rem; display: flex; justify-content: center; align-items: center; font-size: .39rem; position: relative; }
 .my_auc_nav_list li.on:after{ content:''; width: 1.2rem; height: .04rem; background: #F73E50; position: absolute; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
@@ -371,7 +371,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .mauc_record_list .mauc_record_bot{ padding:0 .39rem; background: #fff; margin-top: 1px; height: 1.1rem; display: flex; align-items: center;}
 .mauc_record_list li.prid_it .mauc_record_bot{ justify-content: space-between; }
 .btn_prid_buy{ width: 2.2rem; height: .7rem; color: #fff; border-radius: 1rem;  }
-.wp_succ_pimg{ border: .02rem solid #F0F1F2; box-sizing: border-box; }
+.wp_succ_pimg{ overflow: hidden; border: .02rem solid #F0F1F2; box-sizing: border-box; }
 .wp_succ_pimg,.succ_pimg{ width: 1.5rem; height: 1.5rem; position: relative; }
 .wsord_tip{ background-position: 0 -5.1rem; width: .65rem; height: .65rem; position: absolute; left: 0; top: 0; background-size: 10.8rem auto; }
 .mask_150x150 .mask_txt{ width: 1.3rem; height: .53rem; font-size: .36rem; }
