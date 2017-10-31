@@ -412,9 +412,9 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_prop_ptop .my_prop_list{ height: 2.6rem; }
 .my_prop_ptop .my_prop_list .prop_num{ font-size: .48rem; }
 .my_prop_ptop .my_prop_cont{ margin-bottom: 1px; }
-.wp_link{ background: #fff; position: relative; height: 1rem; display: flex; align-items: center; justify-content: space-between; padding:0 .39rem; }
+.wp_link a{ color: #3B424C; background: #fff; position: relative; height: 1rem; display: flex; align-items: center; justify-content: space-between; padding:0 .39rem; }
 .que_text{ font-size: .36rem; width: 9.1rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.wp_link:after{ content: ''; display: inline-block; width: .2rem; height: .2rem; border-right:.05rem solid; border-bottom: .05rem solid ; border-color:#5B6473; transform: rotate(-45deg); }
+.wp_link a:after{ content: ''; display: inline-block; width: .2rem; height: .2rem; border-right:.05rem solid; border-bottom: .05rem solid ; border-color:#5B6473; transform: rotate(-45deg); }
 .my_prop_cont{ margin-top: .12rem; }
 .my_prop_main{ margin-top: 1px; background: #fff; }
 .my_prop_ltit{ font-weight: normal;	 font-size: .36rem; color:#979AA0; padding: 0 .39rem; display: flex; height: 1rem; justify-content: space-between; align-items: center; }
