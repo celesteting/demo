@@ -22,7 +22,7 @@
                     <li>待晒单</li>
                 </ul>
             </div>
-            <div class="my_auc_main" id="pd_cont_id">
+            <div class="my_auc_main" id="my_auc_main_id">
                 <div class="pd_tab">
                     <ul class="mauc_record_list">
                         <li class="prid_it">
@@ -132,10 +132,11 @@
 
     <script src="js/jquery.min.js"></script>
     <script>
-        $("#pd_bnav_id a").click(function(){
+        $("#my_anav_id ul li").click(function(){
             var index = $(this).index();
+            console.log(index);
             $(this).addClass("on").siblings().removeClass("on");
-            $("#pd_cont_id .pd_tab").eq(index).show().siblings(".pd_tab").hide();
+            $("#my_auc_main_id .pd_tab").eq(index).show().siblings(".pd_tab").hide();
     });
     </script>
 </body>

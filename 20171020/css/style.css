@@ -19,7 +19,7 @@ img{ width: 100%; height: 100%; }
 
 .btn_back,.nav_bot_logo,.ban_link_logo:after,.icon_tip_tt,
 .bid_tit,.icon_phone,.pd_fix_nlogo,.btn_cpw.on:after,.btn_cpw:active:after,
-.btn_arule:after,.my_ct_head .nor_tit:before,.icon_auc,.wsord_tip{ background: url(../img/spr.png) no-repeat; }
+.btn_arule:after,.my_ct_head .nor_tit:before,.icon_auc,.wsord_tip,.btn_cus:before{ background: url(../img/spr.png) no-repeat; }
 .wrap{ background-size: cover; width: 100%; color:#3B424C; background: #f0f1f2; padding-bottom: 1.5rem; }
 .main{position: relative;margin: 0 auto; width: 10.8rem; z-index: 5; overflow: hidden;}
 .ban_cont,.deal_wp{ background: #fff; }
@@ -334,8 +334,8 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_prop_head .nor_tit:before{ background-position: -9.9rem -1.4rem; }
 .my_auc_head .nor_tit:before{ background-position: -9.08rem -1.4rem; }
 .my_cus_head .nor_tit:before{ background-position: -6.4rem -4rem; }
-.btn_red{ background: linear-gradient(to bottom,#FF4C4C,#FE6D7F); display: flex; justify-content: center; align-items: center; }
-.btn_my_buy{ width: 1.8rem; height: .7rem; border-radius: 1rem; font-size: .39rem; color: #fff; }
+.btn_red{ background: linear-gradient(to bottom,#FF4C4C,#FE6D7F); display: flex; justify-content: center; align-items: center; color: #fff; border-radius: 1rem; }
+.btn_my_buy{ width: 1.8rem; height: .7rem; font-size: .39rem; }
 .my_auc_head:after,.my_cus_head:after{ content: ''; margin-left: .34rem; display: inline-block; width: .2rem; height: .2rem; border-right:.05rem solid; border-bottom: .05rem solid ; border-color:#5B6473; transform: rotate(-45deg); }
 .my_prop_list{ background: #fff; height: 2rem; display: flex; justify-content: center; align-items: center; }
 .my_prop_list li{ flex: 1; position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; }
@@ -361,7 +361,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_auc_nav:after{ content: ''; width: 1.2rem; height: .54rem; background: linear-gradient(to left, rgba(255, 255, 255, 1),  rgba(255, 255, 255, 1) 36%,rgba(255, 255, 255, 0)); position: absolute; right: 0; top: 50%;  -webkit-transform: translateY(-50%);  transform: translateY(-50%); }
 .my_auc_nav_list{ height: 100%; display: flex;  width: 13rem; position: absolute; left: 0; top: 0; } 
 .my_auc_nav_list li{ font-weight: bold; width: 2.16rem; display: flex; justify-content: center; align-items: center; font-size: .39rem; position: relative; }
-.my_auc_nav_list li.on:after{ content:''; width: 1.2rem; height: .04rem; background: #F73E50; position: absolute; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
+.my_auc_nav_list li.on:after{ border-radius: .08rem; content:''; width: 1.2rem; height: .04rem; background: #F73E50; position: absolute; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 .my_auc_nav_list li.on{ color: #F73E50; }
 .my_auc_main{ margin-top: .12rem; }
 
@@ -370,7 +370,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .mauc_record_top{ padding:0 .39rem; background: #fff; height: 2.7rem; display: flex; justify-content: center; flex-direction: column; } 
 .mauc_record_list .mauc_record_bot{ padding:0 .39rem; background: #fff; margin-top: 1px; height: 1.1rem; display: flex; align-items: center;}
 .mauc_record_list li.prid_it .mauc_record_bot{ justify-content: space-between; }
-.btn_prid_buy{ width: 2.2rem; height: .7rem; color: #fff; border-radius: 1rem;  }
+.btn_prid_buy{ width: 2.2rem; height: .7rem; }
 .wp_succ_pimg{ overflow: hidden; border: .02rem solid #F0F1F2; box-sizing: border-box; }
 .wp_succ_pimg,.succ_pimg{ width: 1.5rem; height: 1.5rem; position: relative; }
 .wsord_tip{ background-position: 0 -5.1rem; width: .65rem; height: .65rem; position: absolute; left: 0; top: 0; background-size: 10.8rem auto; }
@@ -383,4 +383,57 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .mauc_record_list li.wsord .mauc_record_bot a{ box-sizing: border-box; margin-right: .28rem; padding:0 .3rem; color: #F73E50; font-size: .36rem; border: 1px solid #F73E50; height: .7rem; border-radius: 1rem; display: flex; justify-content: center; align-items: center;  }
 .mauc_record_list li.wsord .mauc_record_bot a:last-child{ margin-right: 0; }
 
+.my_sale_page{ padding-bottom: 0; }
+.my_sale_ban{ text-align: center; color: #fff; background: url(../img/bg_ban_sale.jpg) no-repeat; height: 4.16rem; width: 10.8rem; background-size: 10.8rem auto; position: relative; }
+.my_sale_ban .btn_back{ top: .6rem; }
+.my_sale_btit{ font-size: .54rem; color: #fff; font-weight: normal; padding:.48rem 0 .98rem; }
+.my_sale_bnum{ font-size: .6rem; }
+.btn_my_sale_brule{ background: linear-gradient(to bottom, #FF8734,#FF9D59); border-radius: 1rem 0 0 1rem; width: 1.98rem; height: .8rem; position: absolute; right: 0; display: flex; justify-content: center; align-items: center; color: #fff; font-size: .33rem; top: 2.23rem; }
+.my_sale_nav{ height: 1.2rem; display: flex; align-items:center; background: #fff; }
+.my_sale_nav a{ position: relative; height: 100%; display: flex; flex: 1; justify-content: center; align-items: center; font-size: .39rem; color: #3B424C; }
+.my_sale_nav a.on:after{ content: ''; width: 2rem; height: .04rem; background: #F73E50; position: absolute; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%);  }
+.my_sale_nav a.on{ color: #F73E50; font-weight: bold; }
+.my_sale_main{ margin-top: .21rem; }
+.my_sale_mlist li{ margin:0 auto .12rem; background: url(../img/bg_my_sale_item.png) no-repeat; width: 10.28rem; height: 2.7rem; background-size: 10.28rem auto; display: flex; align-items: center; justify-content: center; }
+.my_sale_mlist li:last-child{ margin: 0 auto; }
+.my_sale_lleft{ padding-left: .25rem; width: 8.38rem; display: flex; align-items: center; }
+.my_sale_pname{ font-size: .36rem; margin: .15rem 0 .2rem; width: 5.5rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.my_sale_limg{ border: 1px solid #F0F1F2; background: #F0F1F2; overflow: hidden; box-sizing: border-box; width: 2.2rem; height: 2.2rem; margin-right: .21rem; }
+.my_sale_mon{ font-size: .33rem; }
+.my_sale_mon strong{ font-size: .54rem; font-weight: normal; }
+.my_sale_limit{ color: #FF9D59; font-size: .33rem;  }
+.btn_sale{ width: 1.63rem; height: 100%; display: flex; justify-content: center; align-items: center; }
+.cuse .btn_sale{ color: #F73E50; }
+.nuse .btn_sale{ color: #979AA0; }
+
+.my_prop_page{ height: 100%; padding-bottom: 0;}
+.my_prop_ptop .my_prop_list{ height: 2.6rem; }
+.my_prop_ptop .my_prop_list .prop_num{ font-size: .48rem; }
+.my_prop_ptop .my_prop_cont{ margin-bottom: 1px; }
+.wp_link{ background: #fff; position: relative; height: 1rem; display: flex; align-items: center; justify-content: space-between; padding:0 .39rem; }
+.que_text{ font-size: .36rem; width: 9.1rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wp_link:after{ content: ''; display: inline-block; width: .2rem; height: .2rem; border-right:.05rem solid; border-bottom: .05rem solid ; border-color:#5B6473; transform: rotate(-45deg); }
+.my_prop_cont{ margin-top: .12rem; }
+.my_prop_main{ margin-top: 1px; background: #fff; }
+.my_prop_ltit{ font-weight: normal;	 font-size: .36rem; color:#979AA0; padding: 0 .39rem; display: flex; height: 1rem; justify-content: space-between; align-items: center; }
+.my_prop_plist li{ font-size: .42rem; padding:0 .39rem; border-top: 1px solid #F0F1F2; height: 1.49rem; display: flex; align-items: center; justify-content: space-between; }
+.my_prop_ltime{ font-size: .3rem; color: #979AA0; }
+
+
+.ndeal_page .ban_ct_bot{ background: #fff; }
+.ndeal_page .succ_rdes{ height: 2.01rem; }
+.ndeal_page .succ_rleft{ flex-direction: column; align-items: left;}
+.ndeal_page .succ_rleft_bot{ display: flex; align-items: center; }
+.ndeal_page .succ_record_time{ margin-bottom: .11rem; }
+.btn_ndeal_auc{ width: 2.2rem; height: .7rem; font-size: .39rem; margin-top: .21rem; }
+.wp_succ_ruimg{ width: 1.5rem; height: 1.5rem; position: relative; }
+.ndeal_page .succ_ruimg{ width: 1.5rem; height: 1.5rem; border-radius: 0; }
+.ndeal_page .succ_rcen p{ line-height: .5rem; }
+.ndeal_page .succ_rright{ line-height: .6rem; }
+
+.help_page{ padding-bottom: 0; height: 100%; }
+.que_list li{ margin-bottom: 1px;}
+.que_list li:last-child{ margin-bottom: 0; }
+.btn_cus{ font-size: .49rem; margin:.48rem auto 0; width: 10.01rem; height: 1.44rem; border-radius: .09rem; }
+.btn_cus:before{ content: ''; background-position: -5.6rem -4rem; width: .72rem; height: .72rem; display: inline-block; background-size: 10.8rem auto; margin-right: .2rem; }
 /* 20171030 caihuiting end */
