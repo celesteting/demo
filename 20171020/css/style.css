@@ -69,7 +69,7 @@ img{ width: 100%; height: 100%; }
 
 .auc_cont_list{ display: flex; flex-flow: row wrap; justify-content:space-between; } 
 .auc_cont_list li{ color: #F73E50; flex-direction: column; align-items: center; justify-content: center; display: flex; margin-top: .06rem; width: 5.37rem; height: 7.6rem; position: relative; background: #fff; }
-.auc_img{ background: #f0f1f2; width: 3.58rem; height: 3.58rem; border:1px solid #F0F1F2; margin:0 auto;}
+.auc_img{ background: url(../images/360x360.png) no-repeat; background-size: 3.6rem auto; width: 3.6rem; height: 3.6rem; border:1px solid #F0F1F2; margin:0 auto;}
 .icon_tip_coll{ z-index: 4; width: 1.46rem; height: .72rem; position: absolute; display: flex; justify-content: center; align-items: center; right: 0; top: .45rem; text-align: center; background: linear-gradient(to bottom,#2ABAFF,#6AE3FD); border-radius: .36rem 0 0 .36rem; font-size: .33rem; color:#fff;}
 .auc_time{ font-weight: bold; font-size: .45rem; padding-top:.11rem; line-height: .63rem; }
 .auc_mon{ font-size: .48rem; line-height: .67rem; font-weight: bold; }
