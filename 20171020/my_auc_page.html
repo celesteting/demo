@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="wrap my_auc_page"> 
+    <!--error没数据-->
+    <div class="wrap my_auc_page error"> 
         <div class="main"> 
             <div class="my_auc_nav" id="my_anav_id">
                 <ul class="my_auc_nav_list">
@@ -24,7 +25,7 @@
             </div>
             <div class="my_auc_main" id="my_auc_main_id">
                 <div class="pd_tab">
-                    <ul class="mauc_record_list">
+                    <ul class="mauc_record_list hacu">
                         <li class="prid_it">
                             <div class="mauc_record_top">
                                 <p class="succ_record_time">2017-10-18 18:01:23</p>
@@ -125,6 +126,17 @@
                             </div>
                         </li>
                     </ul>
+                    <!-- nauc 没有竞拍； nnet 网络不给力   -->
+                    <div class="nauc" style="display: none;">
+                        <div class="nauc_img"><img src="images/jp_null.png" alt=""/></div>
+                        <p class="err_info_tips">您还未参与竞拍哦~</p>
+                        <a href="#" class="btn_red btn_gauc">去竞拍</a>
+                    </div>
+                    <div class="nnet" style="display: ">
+                        <div class="nauc_img"><img src="images/net_error.png" alt=""/></div>
+                        <p class="err_info_tips">网络不给力哦~</p>
+                        <a href="#" class="btn_red btn_gauc">刷新</a>
+                    </div>
                 </div>
             </div>
         </div>

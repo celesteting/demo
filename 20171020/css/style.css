@@ -19,7 +19,8 @@ img{ width: 100%; height: 100%; }
 
 .btn_back,.nav_bot_logo,.ban_link_logo:after,.icon_tip_tt,
 .bid_tit,.icon_phone,.pd_fix_nlogo,.btn_cpw.on:after,.btn_cpw:active:after,
-.btn_arule:after,.my_ct_head .nor_tit:before,.icon_auc,.wsord_tip,.btn_cus:before{ background: url(../img/spr.png) no-repeat; }
+.btn_arule:after,.my_ct_head .nor_tit:before,.icon_auc,.wsord_tip,.btn_cus:before,
+.btn_clo{ background: url(../img/spr.png) no-repeat; }
 .wrap{ background-size: cover; width: 100%; color:#3B424C; background: #f0f1f2; padding-bottom: 1.5rem; }
 .main{position: relative;margin: 0 auto; width: 10.8rem; z-index: 5; overflow: hidden;}
 .ban_cont,.deal_wp{ background: #fff; }
@@ -436,4 +437,17 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .que_list li:last-child{ margin-bottom: 0; }
 .btn_cus{ font-size: .49rem; margin:.48rem auto 0; width: 10.01rem; height: 1.44rem; border-radius: .09rem; }
 .btn_cus:before{ content: ''; background-position: -5.6rem -4rem; width: .72rem; height: .72rem; display: inline-block; background-size: 10.8rem auto; margin-right: .2rem; }
+
+.error .main{ background: #fff; height: 100%; }
+.error .hacu{ display: none; }
+.error .my_auc_main{ text-align: center; margin-top: 0; border-top: 1px solid #F0F1F2; height: 100%; display: flex; align-items: center;}
+.nauc_img{ width: 10.8rem; height: 5rem;  }
+.err_info_tips{ font-size: .39rem; margin:.81rem 0 .4rem; }
+.btn_gauc{ width: 3.6rem; height: .9rem; border-radius: .06rem; margin: 0 auto; }
+
+.wp_rb_pop{ background: url(../img/bg_pop_rb.png); width: 7.9rem; padding: 0rem 1.45rem .8rem; height: 9.44rem; background-size: 10.8rem auto; }
+.wp_rb_pop .btn_clo{ background-position: -2.6rem -5.1rem; width: .52rem; height: .52rem; background-size: 10.8rem auto; position: absolute; top: .33rem; right: 1.88rem;  }
+.rb_pop_txt{ text-shadow: 0 .2rem .6rem rgba(0, 0, 0, 0.1); font-weight: bold; margin-top: .7rem; height: 100%; width: 100%; display: flex; align-items: center; justify-content: center; font-size: .72rem; color: #FEF366; }
+.rb_pop_txt strong{ font-size: 2.4rem; margin-top: -1.1rem; }
+.btn_rb_get{ width: 6rem; height: 1.2rem; border-radius: .6rem; font-size: .56rem; background: #FEF366; display: flex; justify-content: center; align-items: center; color: #AC3815; font-weight: bold; position: absolute; bottom: 1.8rem; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%);}
 /* 20171030 caihuiting end */
