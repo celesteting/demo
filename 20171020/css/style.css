@@ -335,9 +335,11 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_prop_head .nor_tit:before{ background-position: -9.9rem -1.4rem; }
 .my_auc_head .nor_tit:before{ background-position: -9.08rem -1.4rem; }
 .my_cus_head .nor_tit:before{ background-position: -6.4rem -4rem; }
-.btn_red{ background: linear-gradient(to bottom,#FF4C4C,#FE6D7F); display: flex; justify-content: center; align-items: center; color: #fff; border-radius: 1rem; }
+.my_add_head .nor_tit:before{ background-position: -8rem -1.4rem; }
+.btn_red{ background: linear-gradient(to right,#FF4C4C,#FE6D7F); display: flex; justify-content: center; align-items: center; color: #fff; border-radius: 1rem; }
 .btn_my_buy{ width: 1.8rem; height: .7rem; font-size: .39rem; }
-.my_auc_head:after,.my_cus_head:after{ content: ''; margin-left: .34rem; display: inline-block; width: .2rem; height: .2rem; border-right:.05rem solid; border-bottom: .05rem solid ; border-color:#5B6473; transform: rotate(-45deg); }
+.my_auc_head:after,.my_cus_head:after,.my_add_head:after{ content: ''; margin-left: .34rem; display: inline-block; width: .2rem; height: .2rem; border-right:.05rem solid; border-bottom: .05rem solid ; border-color:#5B6473; transform: rotate(-45deg); }
+.my_add_head{ margin-top: .1rem; }
 .my_prop_list{ background: #fff; height: 2rem; display: flex; justify-content: center; align-items: center; }
 .my_prop_list li{ flex: 1; position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 .my_prop_list li:after{ content: ''; height: .6rem; width: .02rem; position: absolute; background: #F0F1F2; right: 0; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
@@ -364,7 +366,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_auc_nav_list li{ width: 2.16rem; display: flex; justify-content: center; align-items: center; font-size: .39rem; position: relative; }
 .my_auc_nav_list li.on:after{ border-radius: .08rem; content:''; width: 1.2rem; height: .04rem; background: #F73E50; position: absolute; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 .my_auc_nav_list li.on{ font-weight: bold; color: #F73E50; }
-.my_auc_main{ margin-top: .12rem; }
+
 
 .mauc_record_list li{ margin-bottom: .11rem; }
 .mauc_record_list li:last-child{ margin-bottom: 0; }
@@ -381,8 +383,8 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .mauc_record_tit{ margin-bottom: .12rem; height: .5rem; display: flex; justify-content: space-between; align-items: center; }
 .mauc_record_tit .succ_record_time{ margin-bottom: 0; }
 .mauc_record_tit .mauc_status{ font-size: .36rem; }
-.mauc_record_list li.wsord .mauc_record_bot{ justify-content: center; }
-.mauc_record_list li.wsord .mauc_record_bot a{ box-sizing: border-box; margin-right: .28rem; padding:0 .3rem; color: #F73E50; font-size: .36rem; border: 1px solid #F73E50; height: .7rem; border-radius: 1rem; display: flex; justify-content: center; align-items: center;  }
+.mauc_record_list li.wsord .mauc_record_bot{ justify-content: flex-end; }
+.mauc_record_list li.wsord .mauc_record_bot a{ box-sizing: border-box; margin-right: .28rem; padding:0 .37rem; color: #F73E50; font-size: .36rem; border: 1px solid #F73E50; height: .7rem; border-radius: 1rem; display: flex; justify-content: center; align-items: center;  }
 .mauc_record_list li.wsord .mauc_record_bot a:last-child{ margin-right: 0; }
 
 .my_sale_page{ padding-bottom: 0; }
@@ -439,18 +441,29 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .btn_cus{ font-size: .49rem; margin:.48rem auto 0; width: 10.01rem; height: 1.44rem; border-radius: .09rem; }
 .btn_cus:before{ content: ''; background-position: -5.6rem -4rem; width: .72rem; height: .72rem; display: inline-block; background-size: 10.8rem auto; margin-right: .2rem; }
 
-.error .main{ background: #fff; height: 100%; }
-.error .hacu{ display: none; }
-.nnet{ display: none; }
-.error .nnet{ display: block; }
-.error .my_auc_main{ text-align: center; margin-top: 0; border-top: 1px solid #F0F1F2; height: 100%; display: flex; align-items: center;}
+
+
+.pd_tab{ margin-top: .12rem; }
+.pd_tab.error.erro{ margin-top: 0; }
+.pd_tab.erro{ text-align: center; margin-top: 0; border-top: 1px solid #F0F1F2; height: 100%; display: flex; align-items: center;}
 .nauc_img{ width: 10.8rem; height: 5rem;  }
 .err_info_tips{ font-size: .39rem; margin:.81rem 0 .4rem; }
 .btn_gauc{ width: 3.6rem; height: .9rem; border-radius: .06rem; margin: 0 auto; }
+.nauc,.nnet{ background: #fff; display: flex; justify-content: center; flex-direction: column; }
 
 .wp_rb_pop{ background: url(../img/bg_pop_rb.png); width: 7.9rem; padding: 0rem 1.45rem .8rem; height: 9.44rem; background-size: 10.8rem auto; }
 .wp_rb_pop .btn_clo{ background-position: -2.6rem -5.1rem; width: .52rem; height: .52rem; background-size: 10.8rem auto; position: absolute; top: .33rem; right: 1.88rem;  }
 .rb_pop_txt{ text-shadow: 0 .2rem .6rem rgba(0, 0, 0, 0.1); font-weight: bold; margin-top: .7rem; height: 100%; width: 100%; display: flex; align-items: center; justify-content: center; font-size: .72rem; color: #FEF366; }
 .rb_pop_txt strong{ font-size: 2.4rem; margin-top: -1.1rem; }
 .btn_rb_get{ width: 6rem; height: 1.2rem; border-radius: .6rem; font-size: .56rem; background: #FEF366; display: flex; justify-content: center; align-items: center; color: #AC3815; font-weight: bold; position: absolute; bottom: 1.8rem; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%);}
+
+.pd_tab_aucing .succ_rdes{ height: 2.01rem; }
+.pd_tab_aucing .succ_rleft{ flex-direction: column; align-items: left; }
+.pd_tab_aucing .succ_rleft_bot{ display: flex; }
+.pd_tab_aucing .succ_ruimg{ border-radius: 0; }
+.pd_tab_aucing li.aucting .succ_record_time{ color: #F73E50; }
+
+
+.to_pay_top:before{ content: ''; position: absolute; right: .45rem; top: 50%; width: .2rem; height: .2rem; border-right: .04rem solid; border-bottom: .04rem solid;  border-color: #5B6473; -webkit-transform: rotate(-45deg) translateY(-50%); transform: rotate(-45deg) translateY(-50%); }
+    
 /* 20171030 caihuiting end */
