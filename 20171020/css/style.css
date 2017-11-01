@@ -331,7 +331,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_info:after{ content: ''; margin-left: .34rem; display: inline-block; width: .2rem; height: .2rem; border-right:.05rem solid; border-bottom: .05rem solid ; border-color:#fff; -webkit-transform: rotate(-45deg); transform: rotate(-45deg);}
 .my_ct_head{ margin-bottom: 1px; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding-right: .4rem; height: 1.2rem; background: #fff; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: .39rem; }
 .my_ct_head .nor_tit{ padding-left: .27rem;  }
-.nor_tit span{ font-size: .72rem; -webkit-transform: scale(.5); transform: scale(.5); -webkit-transform-origin: left; transform-origin: left; margin-top: .08rem; }
+.nor_tit span{ font-size: .72rem; -webkit-transform: scale(.5); transform: scale(.5); -webkit-transform-origin: left; transform-origin: left; margin-top: .06rem; }
 .my_ct_head .nor_tit:before{ content: ''; width: .72rem; height: .72rem; background-size: 10.8rem auto; display: inline-block; margin-right: .24rem; }
 .my_prop_head .nor_tit:before{ background-position: -9.9rem -1.4rem; }
 .my_auc_head .nor_tit:before{ background-position: -9.08rem -1.4rem; }
@@ -459,7 +459,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .btn_rb_get{ width: 6rem; height: 1.2rem; border-radius: .6rem; font-size: .56rem; background: #FEF366; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #AC3815; font-weight: bold; position: absolute; bottom: 1.8rem; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%);}
 
 .pd_tab_aucing .succ_rdes{ height: 2.01rem; }
-.pd_tab_aucing .succ_rleft{ -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: left; -ms-flex-align: left; align-items: left; }
+.pd_tab_aucing .succ_rleft{ -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: left; -ms-flex-align: left; align-items: flex-start; }
 .pd_tab_aucing .succ_rleft_bot{ display: -webkit-box; display: -ms-flexbox; display: flex; }
 .pd_tab_aucing .succ_ruimg{ border-radius: 0; }
 .pd_tab_aucing li.aucting .succ_record_time{ color: #F73E50; }
