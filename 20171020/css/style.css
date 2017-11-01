@@ -338,7 +338,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_cus_head .nor_tit:before{ background-position: -6.4rem -4rem; }
 .my_add_head .nor_tit:before{ background-position: -8rem -1.4rem; }
 .btn_red{ background: -webkit-gradient(linear,left top, right top,from(#FF4C4C),to(#FE6D7F)); background: linear-gradient(to right,#FF4C4C,#FE6D7F); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #fff; border-radius: 1rem; }
-.btn_red  span{ margin-top: .04rem; }
+.btn_red  span{ margin-top: .08rem; }
 .btn_my_buy{ width: 1.8rem; height: .7rem; font-size: .39rem; }
 .my_auc_head:after,.my_cus_head:after,.my_add_head:after{ content: ''; margin-left: .34rem; display: inline-block; width: .2rem; height: .2rem; border-right:.05rem solid; border-bottom: .05rem solid ; border-color:#5B6473; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
 .my_add_head{ margin-top: .1rem; }
