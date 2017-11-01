@@ -363,7 +363,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_cus_head{ margin-top: .13rem; }
 
 .my_auc_page{ height: 100%; padding-bottom: 0; }
-.my_auc_nav{ height: 1.2rem; background: #fff; width: 10.8rem; position: relative; overflow: hidden; }
+.my_auc_nav{ height: 1.2rem; background: #fff; width: 10.8rem; position: relative; overflow: hidden; border-bottom: .12rem solid #F0F1F2; }
 .my_auc_nav:after{ content: ''; width: 1.2rem; height: .54rem; background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 1)),  color-stop(36%, rgba(255, 255, 255, 1)),to(rgba(255, 255, 255, 0))); background: linear-gradient(to left, rgba(255, 255, 255, 1),  rgba(255, 255, 255, 1) 36%,rgba(255, 255, 255, 0)); position: absolute; right: 0; top: 50%;  -webkit-transform: translateY(-50%);  transform: translateY(-50%); }
 .my_auc_nav_list{ height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex;  width: 13rem; position: absolute; left: 0; top: 0; } 
 .my_auc_nav_list li{ width: 2.16rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: .39rem; position: relative; }
@@ -428,7 +428,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 
 .ndeal_page .ban_ct_bot{ background: #fff; }
 .ndeal_page .succ_rdes{ height: 2.01rem; }
-.ndeal_page .succ_rleft{ -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: left; -ms-flex-align: left; align-items: left;}
+.ndeal_page .succ_rleft{ -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: flex-start; -ms-flex-align: flex-start; align-items: flex-start;}
 .ndeal_page .succ_rleft_bot{ display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .ndeal_page .succ_record_time{ margin-bottom: .11rem; }
 .btn_ndeal_auc{ width: 2.2rem; height: .7rem; font-size: .39rem; margin-top: .21rem; }
@@ -443,15 +443,10 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .btn_cus{ font-size: .49rem; margin:.48rem auto 0; width: 10.01rem; height: 1.44rem; border-radius: .09rem; }
 .btn_cus:before{ content: ''; background-position: -5.6rem -4rem; width: .72rem; height: .72rem; display: inline-block; background-size: 10.8rem auto; margin-right: .2rem; }
 
-
-
-.pd_tab{ margin-top: .12rem; }
-.pd_tab.error.erro{ margin-top: 0; }
-.pd_tab.erro{ text-align: center; margin-top: 0; border-top: 1px solid #F0F1F2; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
 .nauc_img{ width: 10.8rem; height: 5rem;  }
 .err_info_tips{ font-size: .39rem; margin:.81rem 0 .4rem; }
 .btn_gauc{ width: 3.6rem; height: .9rem; border-radius: .06rem; margin: 0 auto; }
-.nauc,.nnet{ position: fixed; left: 0; top: 1.22rem; right: 0; bottom: 0; background: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.nauc,.nnet{ text-align: center; position: fixed; left: 0; top: 1.32rem; right: 0; bottom: 0; background: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
 .wp_rb_pop{ background: url(../img/bg_pop_rb.png); width: 7.9rem; padding: 0rem 1.45rem .8rem; height: 9.44rem; background-size: 10.8rem auto; }
 .wp_rb_pop .btn_clo{ background-position: -2.6rem -5.1rem; width: .52rem; height: .52rem; background-size: 10.8rem auto; position: absolute; top: .33rem; right: 1.88rem;  }
