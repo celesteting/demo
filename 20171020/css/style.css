@@ -3,7 +3,7 @@ html{
   font-size: 9.2593vw;
 }
 html,body{ width: 100%; height: 100%; }
-body{ -webkit-text-size-adjust: 100% !important; }
+body{ -webkit-text-size-adjust: 100% !important; background: #F0F1F2; }
 body:before{ content:"author:caihuiting,design:zhangyundong,time:20171019"; display: none; }
 body,button,input,select,textarea{font:.36rem/1.5 PingFangTC-Regular,PingFangHK-Regular;outline:none;-webkit-font-smoothing:antialiased；}
 ul,ol{list-style:none;}em,i{font-style:normal;}
@@ -21,7 +21,7 @@ img{ width: 100%; height: 100%; }
 .bid_tit,.icon_phone,.pd_fix_nlogo,.btn_cpw.on:after,.btn_cpw:active:after,
 .btn_arule:after,.my_ct_head .nor_tit:before,.icon_auc,.wsord_tip,.btn_cus:before,
 .btn_clo{ background: url(../img/spr.png) no-repeat; }
-.wrap{ background-size: cover; width: 100%; color:#3B424C; background: #f0f1f2; padding-bottom: 1.5rem; }
+.wrap{ background-size: cover; width: 100%; color:#3B424C; padding-bottom: 1.5rem; }
 .main{position: relative;margin: 0 auto; width: 10.8rem; z-index: 5; overflow: hidden;}
 .ban_cont,.deal_wp{ background: #fff; }
 .ban_img_box{ background: #f0f1f2; position: relative; width: 10.8rem; height: 4.5rem; }
@@ -178,6 +178,7 @@ img{ width: 100%; height: 100%; }
 .succ_rright{ font-size: .36rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; }
 .succ_rright strong{ font-size: .6rem; font-weight: normal;	 }
 .succ_record_time{ color:#979AA0; font-size: .33rem; margin-bottom: .2rem; }
+.succ_rcen{ display: flex; justify-content: center; flex-direction: column; }
 .succ_rcen p{ font-size: .33rem; margin-left: .33rem; }
 .succ_rcen .uname{ width: 3rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; vertical-align: top; }
 
@@ -383,7 +384,6 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .mask_150x150 .mask_txt{ width: 1.3rem; height: .53rem; font-size: .36rem; }
 .wsord_pname{ width: 5.5rem; font-size: .36rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .mauc_record_tit{ margin-bottom: .12rem; height: .5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-.mauc_record_tit .succ_record_time{ margin-bottom: 0; }
 .mauc_record_tit .mauc_status{ font-size: .36rem; }
 .mauc_record_list li.wsord .mauc_record_bot{ -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 .mauc_record_list li.wsord .mauc_record_bot a{ -webkit-box-sizing: border-box; box-sizing: border-box; margin-right: .28rem; padding:0 .32rem; color: #F73E50; font-size: .36rem; border: 1px solid #F73E50; height: .7rem; border-radius: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center;  }
@@ -470,4 +470,3 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
     
 /* 20171030 caihuiting end */
 
-/*# sourceMappingURL=maps/style.css.map */
