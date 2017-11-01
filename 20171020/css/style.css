@@ -46,7 +46,7 @@ img{ width: 100%; height: 100%; }
 .ban_ct_blink{ position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: 3;}
 .ban_ct_btxt strong{ color:#F73E50; font-weight: normal; }
 .ban_ct_btxt .uname{ vertical-align: top; max-width: 1.2rem; display: inline-block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;  }
-.ban_ct_btxt{ display: inline-block ; width: 7.4rem; }
+.ban_ct_btxt{ display: inline-block ; width: 7.4rem; word-break:  break-all; }
 .icon_tri_next{ margin-left: .34rem; display: inline-block; width: .2rem; height: .2rem; border-right:.05rem solid; border-bottom: .05rem solid ; border-color:#5B6473; transform: rotate(-45deg); }
 
 .deal_wp{ margin-top: .12rem; }
