@@ -384,7 +384,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .mauc_record_tit .succ_record_time{ margin-bottom: 0; }
 .mauc_record_tit .mauc_status{ font-size: .36rem; }
 .mauc_record_list li.wsord .mauc_record_bot{ justify-content: flex-end; }
-.mauc_record_list li.wsord .mauc_record_bot a{ box-sizing: border-box; margin-right: .28rem; padding:0 .35rem; color: #F73E50; font-size: .36rem; border: 1px solid #F73E50; height: .7rem; border-radius: 1rem; display: flex; justify-content: center; align-items: center;  }
+.mauc_record_list li.wsord .mauc_record_bot a{ box-sizing: border-box; margin-right: .28rem; padding:0 .33rem; color: #F73E50; font-size: .36rem; border: 1px solid #F73E50; height: .7rem; border-radius: 1rem; display: flex; justify-content: center; align-items: center;  }
 .mauc_record_list li.wsord .mauc_record_bot a:last-child{ margin-right: 0; }
 
 .my_sale_page{ padding-bottom: 0; }
