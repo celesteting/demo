@@ -370,7 +370,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_auc_nav_list li.on:after{ border-radius: .08rem; content:''; width: 1.2rem; height: .04rem; background: #F73E50; position: absolute; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 .my_auc_nav_list li.on{ font-weight: bold; color: #F73E50; }
 
-.main,.my_auc_main,.pd_tab{ height: 100%; }
+.my_auc_page .main,.my_auc_main,.pd_tab{ height: 100%; }
 
 .mauc_record_list li{ margin-bottom: .11rem; }
 .mauc_record_list li:last-child{ margin-bottom: 0; }
