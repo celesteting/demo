@@ -22,7 +22,7 @@ img{ width: 100%; height: 100%; }
 .btn_arule:after,.my_ct_head .nor_tit:before,.icon_auc,.wsord_tip,.btn_cus:before,
 .btn_clo,.icon_rsucc{ background: url(../img/spr.png) no-repeat; }
 .wrap{ background-size: cover; width: 100%; color:#3B424C; padding-bottom: 1.5rem; }
-.main{position: relative;margin: 0 auto; width: 10.8rem; z-index: 5; overflow: hidden;}
+.main{position: relative;margin: 0 auto; width: 10.8rem; z-index: 5; overflow-x: hidden;}
 .ban_cont,.deal_wp{ background: #fff; }
 .ban_img_box{ background: #f0f1f2; position: relative; width: 10.8rem; height: 4.5rem; }
 .btn_back{ background-position: -6.4rem 0; width: .57rem; height: .56rem; position: absolute; background-size: 10.8rem auto; left: .38rem; top: 1.27rem; z-index: 3; }
@@ -370,7 +370,6 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_auc_nav_list li.on:after{ border-radius: .08rem; content:''; width: 1.2rem; height: .04rem; background: #F73E50; position: absolute; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 .my_auc_nav_list li.on{ font-weight: bold; color: #F73E50; }
 
-.my_auc_page .main,.my_auc_main,.pd_tab{ height: 100%; }
 
 .mauc_record_list li{ margin-bottom: .11rem; }
 .mauc_record_list li:last-child{ margin-bottom: 0; }
