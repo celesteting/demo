@@ -26,7 +26,7 @@
             <div class="my_auc_main" id="my_auc_main_id">
                 <!-- erra 没有数据  errn 没有网络-->
                 <!-- 全部 -->
-                <div class="pd_tab pd_tab_all erro">
+                <div class="pd_tab pd_tab_all">
                     <ul class="mauc_record_list hacu" style="display: none;">
                         <li class="prid_it">
                             <div class="mauc_record_top">
@@ -558,12 +558,6 @@
                 $(this).addClass("on").siblings().removeClass("on");
                 $("#my_auc_main_id .pd_tab").eq(index).show().siblings(".pd_tab").hide();
             });
-
-
-            if($(".pd_tab").hasClass("erro")){
-                $(".nauc").css("height", $(window).height() - $("#my_anav_id").height() - 1 ) ;
-                $(".nnet").css("height", $(window).height() - $("#my_anav_id").height() - 1 ) ;
-            }
         });
         
 
