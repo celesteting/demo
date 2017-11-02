@@ -20,7 +20,7 @@ img{ width: 100%; height: 100%; }
 .btn_back,.nav_bot_logo,.ban_link_logo:after,.icon_tip_tt,
 .bid_tit,.icon_phone,.pd_fix_nlogo,.btn_cpw.on:after,.btn_cpw:active:after,
 .btn_arule:after,.my_ct_head .nor_tit:before,.icon_auc,.wsord_tip,.btn_cus:before,
-.btn_clo{ background: url(../img/spr.png) no-repeat; }
+.btn_clo,.icon_rsucc{ background: url(../img/spr.png) no-repeat; }
 .wrap{ background-size: cover; width: 100%; color:#3B424C; padding-bottom: 1.5rem; }
 .main{position: relative;margin: 0 auto; width: 10.8rem; z-index: 5; overflow: hidden;}
 .ban_cont,.deal_wp{ background: #fff; }
@@ -462,6 +462,13 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 
 
 .to_pay_top:before{ content: ''; position: absolute; right: .45rem; top: 50%; width: .2rem; height: .2rem; border-right: .04rem solid; border-bottom: .04rem solid;  border-color: #5B6473; -webkit-transform: rotate(-45deg) translateY(-50%); transform: rotate(-45deg) translateY(-50%); }
-    
 /* 20171030 caihuiting end */
+
+/* 20171102 caihuiting*/
+.wp_rsucc_pop{ position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: #fff; display: flex; justify-content: center; align-items: center; text-align: center;}
+.rsucc_pop_main .icon_rsucc{ background-position: 0 -5.8rem; width: 2.8rem; height: 2.8rem; background-size: 10.8rem auto; display: block; margin:0 auto;}
+.rsucc_pop_tit{ font-size: .5rem; margin:1rem 0 .1rem; color: #3B424C; font-weight: normal;	 }
+.rsucc_pop_tip{ font-size: .4rem; color: #979AA0; }
+.wp_rsucc_pop:after{ content: ''; background: url(../images/rock.png) no-repeat; width: 5rem; height: 5.85rem; position: absolute; bottom: 0; right: 1.02rem; background-size: 5rem auto; }
+/* 20171102 caihuiting end*/
 
