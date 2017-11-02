@@ -363,13 +363,14 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .my_cus_head{ margin-top: .13rem; }
 
 .my_auc_page{ height: 100%; padding-bottom: 0; }
-.my_auc_nav{ height: 1.2rem; background: #fff; width: 10.8rem; position: relative; overflow: hidden; border-bottom: .12rem solid #F0F1F2; }
+.my_auc_nav{ height: 1.2rem; background: #fff; width: 10.8rem; position: relative; overflow: hidden; border-bottom: .12rem solid #F0F1F2; z-index: 3; }
 .my_auc_nav:after{ content: ''; width: 1.2rem; height: .54rem; background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 1)),  color-stop(36%, rgba(255, 255, 255, 1)),to(rgba(255, 255, 255, 0))); background: linear-gradient(to left, rgba(255, 255, 255, 1),  rgba(255, 255, 255, 1) 36%,rgba(255, 255, 255, 0)); position: absolute; right: 0; top: 50%;  -webkit-transform: translateY(-50%);  transform: translateY(-50%); }
 .my_auc_nav_list{ height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex;  width: 13rem; position: absolute; left: 0; top: 0; } 
 .my_auc_nav_list li{ width: 2.16rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: .39rem; position: relative; }
 .my_auc_nav_list li.on:after{ border-radius: .08rem; content:''; width: 1.2rem; height: .04rem; background: #F73E50; position: absolute; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 .my_auc_nav_list li.on{ font-weight: bold; color: #F73E50; }
 
+.main,.my_auc_main,.pd_tab{ height: 100%; }
 
 .mauc_record_list li{ margin-bottom: .11rem; }
 .mauc_record_list li:last-child{ margin-bottom: 0; }
@@ -467,7 +468,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 /* 20171102 caihuiting*/
 .wp_rsucc_pop{ position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: #fff; display: flex; justify-content: center; align-items: center; text-align: center;}
 .rsucc_pop_main{ padding-bottom: 1.4rem; }
-.rsucc_pop_main .icon_rsucc{ background-position: 0 -5.8rem; width: 2.8rem; height: 2.8rem; background-size: 10.8rem auto; display: block; margin:0 auto;}
+.rsucc_pop_main .icon_rsucc{ background-position: 0 -5.8rem; width: 2.82rem; height: 2.82rem; background-size: 10.8rem auto; display: block; margin:0 auto;}
 .rsucc_pop_tit{ font-size: .5rem; margin:1rem 0 .1rem; color: #3B424C; font-weight: normal;	 }
 .rsucc_pop_tip{ font-size: .4rem; color: #979AA0; }
 .wp_rsucc_pop:after{ content: ''; background: url(../images/rock.png) no-repeat; width: 3.8rem; height: 4.38rem; position: absolute; bottom: .2rem; right: 1.6rem; background-size: 3.8rem auto; }
