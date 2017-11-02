@@ -466,7 +466,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 
 /* 20171102 caihuiting*/
 .wp_rsucc_pop{ position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: #fff; display: flex; justify-content: center; align-items: center; text-align: center;}
-.rsucc_pop_main{ padding-bottom: 2rem; }
+.rsucc_pop_main{ padding-bottom: 1.4rem; }
 .rsucc_pop_main .icon_rsucc{ background-position: 0 -5.8rem; width: 2.8rem; height: 2.8rem; background-size: 10.8rem auto; display: block; margin:0 auto;}
 .rsucc_pop_tit{ font-size: .5rem; margin:1rem 0 .1rem; color: #3B424C; font-weight: normal;	 }
 .rsucc_pop_tip{ font-size: .4rem; color: #979AA0; }
