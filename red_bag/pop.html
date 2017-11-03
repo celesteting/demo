@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="applicable-device" content="mobile">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<title>分享红包浮层</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="pendant">
+		<a href="javascript:;" class="btn_rb"></a>
+		<div class="pd_reb_bag ani"></div>
+	</div>
+
+	<div class="cover"></div>
+	<div class="reb_box">
+		<div class="rb_box_top">
+			<div class="logo_box"><img src="images/xl_logo.jpg" alt=""/></div>
+			<p class="logo_name">迅雷</p>
+			<p class="logo_tip">给你发了一个红包</p>
+			<h3 class="rb_box_tit">看视频，得红包！</h3>
+		</div>
+		<a href="#" class="btn_open txt_hide">开</a>
+		<a href="javascript:;" class="btn_clo txt_hide">关闭</a>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script>
+		var a = document.getElementsByTagName('a');
+		for(var i = 0; i < a.length; i++)
+		{
+		  a[i].addEventListener('touchstart',function(){},false);
+		}
+
+		$(".pendant").children(".pd_reb_bag").removeClass("ani");
+	    $(".cover").show();
+		$(".reb_box").addClass("appear").removeClass("disappear");
+
+		$(".pendant").click(function(){
+	        $(this).children(".pd_reb_bag").removeClass("ani");
+	        $(".cover").show();
+	        $(".reb_box").addClass("appear").removeClass("disappear");
+
+    	});
+    	$(".btn_clo").click(function(){
+	        $(".pendant").children(".pd_reb_bag").addClass("ani");
+	        $(".cover").hide();
+	        $(".reb_box").removeClass("appear").addClass("disappear");
+    	});
+	</script>
+</body>
+</html>	
