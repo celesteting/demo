@@ -14,10 +14,11 @@ img{display:block;border: 0;vertical-align:middle;}
 table{ width:auto;border-collapse: collapse;border-spacing: 0;}
 a{text-decoration:none;outline:none;color:#f7dfaa;}
 a,button,button:active,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
-.txt_hide{ height:1px; line-height:100; overflow:hidden;}
+.txt_hide{ height:1px; line-height:150; overflow:hidden;}
 .reb_box,.btn_open,.btn_clo,.inc_dtop_limg .vtime:before,.wc_iden_sign,
 .act_ind_tit,.icon_ai_rb,.icon_ai_coin,.btn_act_inwc,.icon_spr{ background: url(../img/spr.png) no-repeat; }
 img{ width: 100%; height: 100%; }
+.wrap{ width: 10.8rem; overflow: hidden; }
 
 /*pop_rb*/
 .pendant{ width: 2.4rem; height: 2.4rem; position: fixed; right: 0rem; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%);  }
@@ -91,7 +92,7 @@ img{ width: 100%; height: 100%; }
 .wc_iden_ptip{ font-size: .42rem; margin-top: .3rem; }
 
 .act_index{ background: #fe590a;}
-.act_ind_ban{ overflow: hidden; position: relative; z-index: 2; width: 10.8rem; padding-top: 1.63rem; height: 13.77rem; background: url(../img/bg_act_index.jpg) no-repeat; background-size: 10.8rem auto; }
+.act_ind_ban{ position: relative; z-index: 2; width: 10.8rem; padding-top: 1.63rem; height: 13.77rem; background: url(../img/bg_act_index.jpg) no-repeat; background-size: 10.8rem auto; }
 .act_cont{ font-size: .45rem; position: relative; z-index: 1; padding:0 .86rem; }
 .act_ind_cont{ color: #fff;  background: linear-gradient(to bottom,#ff6109,#f42b16); margin-top: -.84rem; padding-top: .84rem; }
 .act_ind_tit{ width: 9.92rem; height: 6.45rem; position: relative; margin:0 auto; background-position: 0 -13.7rem;  background-size: 10.8rem auto;  }
