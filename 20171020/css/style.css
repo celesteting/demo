@@ -17,7 +17,7 @@ a,button,button:active,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
 .txt_hide{ height:1px; line-height:30; overflow:hidden;}
 img{ width: 100%; height: 100%; }
 
-.btn_back,.nav_bot_logo,.ban_link_logo:after,.icon_tip_tt,
+.btn_back,.nav_bot_logo,.ban_link_logo:after,.icon_tip_tt,.btn_min:after,.btn_add:after,
 .bid_tit,.icon_phone,.pd_fix_nlogo,.btn_cpw.on:after,.btn_cpw:active:after,
 .btn_arule:after,.my_ct_head .nor_tit:before,.icon_auc,.wsord_tip,.btn_cus:before,
 .btn_clo,.icon_rsucc{ background: url(../img/spr.png) no-repeat; }
@@ -204,10 +204,9 @@ img{ width: 100%; height: 100%; }
 .btn_min,.btn_add{ width: .98rem; height: .98rem; position: absolute; top: -1px; }
 .btn_min{ border-right: 1px solid #979AA0; left: -1px; }
 .btn_add{ border-left: 1px solid #979AA0; right: -1px; }
-.btn_min:after,.btn_add:after{ position: absolute; content: ''; width: .42rem; height: .04rem; background: #3B424C; border-radius: .04rem; }
-.btn_add:before{ position: absolute; content: ''; height: .42rem; width: .04rem; background: #3B424C; border-radius: .04rem; }
-.btn_min:after,.btn_add:after{ left: 50%; top: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
-.btn_add:before{ top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%) ; }
+.btn_min:after,.btn_add:after{ position: absolute; content: ''; width: .72rem; height: .72rem; left: 50%; top: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); background-size: 10.8rem auto; }
+.btn_min:after{ background-position: -6.97rem -2.4rem; }
+.btn_add:after{ background-position: -7.92rem -2.4rem; }
 .pd_fix_itxt{ margin-left: .19rem; }
 .in_num_box{ position: relative; }
 .page_cbox{ display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: absolute; top: -2.37rem; width: 4.78rem; background: #fff; text-align: center; border-radius: .09rem; border:1px solid #979797; height: 1.89rem; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
