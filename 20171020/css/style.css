@@ -204,9 +204,10 @@ img{ width: 100%; height: 100%; }
 .btn_min,.btn_add{ width: .98rem; height: .98rem; position: absolute; top: -1px; }
 .btn_min{ border-right: 1px solid #979AA0; left: -1px; }
 .btn_add{ border-left: 1px solid #979AA0; right: -1px; }
-.btn_min:after,.btn_add:after,.btn_add:before{ position: absolute; content: ''; width: .42rem; height: .04rem; background: #3B424C; border-radius: .04rem; }
+.btn_min:after,.btn_add:after{ position: absolute; content: ''; width: .42rem; height: .04rem; background: #3B424C; border-radius: .04rem; }
+.btn_add:before{ position: absolute; content: ''; height: .42rem; width: .04rem; background: #3B424C; border-radius: .04rem; }
 .btn_min:after,.btn_add:after{ left: 50%; top: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
-.btn_add:before{ top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%) rotate(90deg); transform: translate(-50%,-50%) rotate(90deg); }
+.btn_add:before{ top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%) ; }
 .pd_fix_itxt{ margin-left: .19rem; }
 .in_num_box{ position: relative; }
 .page_cbox{ display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: absolute; top: -2.37rem; width: 4.78rem; background: #fff; text-align: center; border-radius: .09rem; border:1px solid #979797; height: 1.89rem; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
