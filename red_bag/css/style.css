@@ -96,7 +96,7 @@ img{ width: 100%; height: 100%; }
 .act_cont{ font-size: .45rem; position: relative; z-index: 1; padding:0 .86rem; }
 .act_ind_cont{ color: #fff;  background: linear-gradient(to bottom,#ff6109,#f42b16); margin-top: -.84rem; padding-top: .84rem; }
 .act_ind_tit{ width: 9.92rem; height: 6.45rem; position: relative; margin:0 auto; background-position: 0 -13.7rem;  background-size: 10.8rem auto;  }
-.btn_iwel{ box-shadow: 0 .15rem .24rem rgba(212, 0, 16, 0.35); background: linear-gradient(to bottom,#146ffe,#452bff); font-size: .66rem; color: #fff; font-weight: bold; border-radius: .8rem;  display: flex; justify-content: center; align-items: center; margin: 1.97rem auto 0; width: 7.2rem; height: 1.64rem; }
+.btn_iwel{ background: linear-gradient(to bottom,#146ffe,#452bff); font-size: .66rem; color: #fff; font-weight: bold; border-radius: .8rem;  display: flex; justify-content: center; align-items: center; margin: 1.97rem auto 0; width: 7.2rem; height: 1.64rem; }
 .act_tit{ font-weight: normal; color: #ffea00; line-height: 1rem;}
 .act_rule_tit{ margin-top: .78rem; }
 .act_rule_list li{ list-style-type: decimal; margin-left: .6rem; margin-bottom: .43rem; }
