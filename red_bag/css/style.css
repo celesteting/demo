@@ -139,9 +139,9 @@ img{ width: 100%; height: 100%; }
 .wc_succ_pop .btn_con{ height: 1.44rem; display: flex; justify-content: center; align-items: center; color: #1494f6; font-size: .51rem;}
 .loading_ptop{ width: 3.61rem; height: 2.05rem; position: relative; }
 .loading_pop{ font-size: .42rem; height: 3.3rem; width: 3.61rem; text-align: center; color: #fff; }
-.icon_rb1{ background-position: -6.48rem -20.5rem; width: 1.75rem; height: 1.9rem; background-size: 10.8rem auto; left: 0; top: 0; position: absolute; z-index: 2; }
-.icon_rb2{ background-position: 0 -22.4rem; width: 1.49rem; height: 1.63rem; background-size: 10.8rem auto; right: 0; top: .42rem; position: absolute; z-index: 4;}
-.icon_coin{ background-position: -8.41rem -20.5rem; width: .69rem; height: .68rem; background-size: 10.8rem auto; right: 1.14rem; top: 1.23rem; position: absolute; z-index: 5; }
+.icon_rb1{ background-position: -6.48rem -20.5rem; width: 1.75rem; height: 1.92rem; background-size: 10.8rem auto; left: 0; top: 0; position: absolute; z-index: 2; }
+.icon_rb2{ background-position: 0 -22.4rem; width: 1.49rem; height: 1.65rem; background-size: 10.8rem auto; right: 0; top: .42rem; position: absolute; z-index: 4;}
+.icon_coin{ background-position: -8.41rem -20.5rem; width: .69rem; height: .71rem; background-size: 10.8rem auto; right: 1.14rem; top: 1.23rem; position: absolute; z-index: 5; }
 .icon_vodi{ background-position: -2.89rem -20.5rem; width: 1.64rem; height: 1.68rem; background-size: 10.8rem auto; left: 1.01rem; top: .01rem; position: absolute; }
 .icon_vodu{ background-position: 0 -20.5rem; width: 1.78rem; height: 1.83rem; background-size: 10.8rem auto; left: .8rem; top: 0; position: absolute; z-index: 3; }
 .loading_pop p{ padding-top: .84rem; line-height: .42rem; }
