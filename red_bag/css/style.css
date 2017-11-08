@@ -161,7 +161,17 @@ img{ width: 100%; height: 100%; }
    100%{ background-position: -52.8rem 0rem; }
 }
 .act_ind_tit{ -webkit-animation: fadeDown .8s  both;  animation: fadeDown .8s both;  }
-.btn_iwel{ -webkit-animation: fadeDown .8s .4s  both;  animation: fadeDown .8s .4s both;  }
+.btn_iwel{ -webkit-animation: opacity 1s .8s  both;  animation: opacity 1s .8s both;  }
+
+@-webkit-keyframes opacity{
+  0%{ opacity: 0; }
+  100%{ opacity: 1; }
+}
+@keyframes opacity{
+  0%{ opacity: 0; }
+  100%{ opacity: 1; }
+}
+
 
 @-webkit-keyframes fadeDown{
   0%{-webkit-transform:translate3d(0,-30rem,0);-webkit-transform:translate3d(0,-30rem,0);}
