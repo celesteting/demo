@@ -34,9 +34,9 @@ img{ width: 100%; height: 100%; }
 .logo_box{ width: 1.16rem; height: 1.16rem; border-radius: 50%; overflow: hidden; border: .02rem solid #ffe2b1; }
 .logo_box img{ width: 100%; height: 100%; }
 .rb_box_top{ position: relative; z-index: 1; color:#ffe2b1; display: flex; flex-direction: column; justify-content: center; align-items: center; }
-.logo_name{ font-size: .47rem; line-height: 1rem; }
-.logo_tip{ font-size: .36rem; line-height: .36rem; }
-.rb_box_tit{ font-size: .66rem; padding-top: .9rem; line-height: .66rem; }
+.logo_name{ font-size: .47rem; }
+.logo_tip{ font-size: .36rem; }
+.rb_box_tit{ font-size: .66rem; padding-top: .9rem; }
 
 
 /* v:10/26/2017  by:caihuiting */
@@ -112,7 +112,7 @@ img{ width: 100%; height: 100%; }
 .act_wc_cont .act_rule_tit{ margin-top: .6rem; }
 .act_wc_cont{ font-size: .42rem; }
 .act_wc_cont .act_rule_list,.act_wc_cont .act_rule_list strong{ font-weight: normal; color: #39424d; }
-.act_wc_cont .act_rule_list span,.fc_grey{ color: #979aa0; }
+.act_wc_cont .act_rule_list strong.fc_grey{ color: #979aa0; }
 .act_wc_cont .act_foot_txt:after,.act_wc_cont .act_foot_txt:before{ background: #969aa1; }
 
 .act_wc_ban{ width: 10.8rem; height: 3.66rem; }
@@ -134,6 +134,8 @@ img{ width: 100%; height: 100%; }
 .btn_act_inwc{ background-position: -2.02rem -15.15rem; width: 6.76rem; height: 1.36rem; display: flex; justify-content: center; align-items: center; background: #ff3f45; color: #fff; font-size: .6rem; margin: .5rem auto 0; border-radius: .67rem;}
 .link_act_inwc{ color: #39424d; font-size: .48rem; display: flex; justify-content: center; align-items: center; height: 1.11rem; }
 
+.act_foot_txt.fc_grey{ color: #979aa0; }
+
 .wc_succ_pop{ width: 9.42rem; background: #fff; border-radius: .06rem;  }
 .wc_succ_ptop p{ padding: 1.4rem 0; border-bottom: 1px solid #dedede; display: flex; justify-content: center;  text-align: center; font-size: .42rem; color: #666;}
 .wc_succ_pop .btn_con{ height: 1.44rem; display: flex; justify-content: center; align-items: center; color: #1494f6; font-size: .51rem;}
@@ -145,6 +147,7 @@ img{ width: 100%; height: 100%; }
 .icon_vodi{ background-position: -2.89rem -20.5rem; width: 1.64rem; height: 1.68rem; background-size: 10.8rem auto; left: 1.01rem; top: .01rem; position: absolute; }
 .icon_vodu{ background-position: 0 -20.5rem; width: 1.78rem; height: 1.83rem; background-size: 10.8rem auto; left: .8rem; top: 0; position: absolute; z-index: 3; }
 .loading_pop p{ padding-top: .84rem; line-height: .42rem; }
+
 /* v:10/26/2017  by:caihuiting end*/
 
 
@@ -160,8 +163,8 @@ img{ width: 100%; height: 100%; }
    0%{ background-position: 0 0; }
    100%{ background-position: -52.8rem 0rem; }
 }
-.act_ind_tit{ -webkit-animation: fadeDown .8s  both;  animation: fadeDown .8s both;  }
-.btn_iwel{ -webkit-animation: opacity 1s .8s  both;  animation: opacity 1s .8s both;  }
+.act_ind_tit{ -webkit-animation: bounceIn .8s  both;  animation: bounceIn .8s both;  }
+.btn_iwel{ -webkit-animation: bounceIn 1s .8s  both;  animation: bounceIn 1s .8s both;  }
 
 @-webkit-keyframes opacity{
   0%{ opacity: 0; }
@@ -192,65 +195,65 @@ img{ width: 100%; height: 100%; }
 
   0% {
     opacity: 0;
-    -webkit-transform: scale3d(0, 0, 0);
-    transform: scale3d(0, 0, 0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
   }
 
   40% {
-    -webkit-transform: scale3d(1.08, 1.08, 1.08);
-    transform: scale3d(1.08, 1.08, 1.08) ;
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08) ;
   }
 
   60% {
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
-    transform: scale3d(1.03, 1.03, 1.03) ;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03) ;
   }
 
   73.3% {
     opacity: 1;
-    -webkit-transform: scale3d(1.04, 1.04, 1.04);
-    transform: scale3d(1.04, 1.04, 1.04);
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
   }
 
   to {
     opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1) ;
+    -webkit-transform: scale(1);
+    transform: scale(1) ;
   }
 }
 
 @keyframes bounceIn {
-  from, 0%, 40%, 60%, 73.3%, to {
+   from, 0%, 40%, 60%, 73.3%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
     opacity: 0;
-    -webkit-transform: scale3d(0, 0, 0);
-    transform: scale3d(0, 0, 0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
   }
 
   40% {
-    -webkit-transform: scale3d(1.08, 1.08, 1.08);
-    transform: scale3d(1.08, 1.08, 1.08) ;
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08) ;
   }
 
   60% {
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
-    transform: scale3d(1.03, 1.03, 1.03) ;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03) ;
   }
 
   73.3% {
     opacity: 1;
-    -webkit-transform: scale3d(1.04, 1.04, 1.04);
-    transform: scale3d(1.04, 1.04, 1.04);
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
   }
 
   to {
     opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1) ;
+    -webkit-transform: scale(1);
+    transform: scale(1) ;
   }
 }
 
@@ -259,31 +262,31 @@ img{ width: 100%; height: 100%; }
 @-webkit-keyframes disappear{
    0% {
 	    opacity: 1;
-	    -webkit-transform: scale3d(1, 1, 1);
-	    transform: scale3d(1, 1, 1) ;
+	    -webkit-transform: scale(1);
+	    transform: scale(1) ;
 	}
    to{  
    		opacity: 0;
-    	-webkit-transform: scale3d(0, 0, 0);
+    	-webkit-transform: scale(0);
     	right: .4rem; 
     }
 }
 @keyframes disappear{
    0% {
 	    opacity: 1;
-	    -webkit-transform: scale3d(1, 1, 1);
-	    transform: scale3d(1, 1, 1) ;
+	    -webkit-transform: scale(1);
+	    transform: scale(1) ;
 	}
    to{  
    		opacity: 0;
-    	transform: scale3d(0, 0, 0) ;
+    	transform: scale(0) ;
     	right: .4rem; 
     }
 }
 
 .icon_rb1{ -webkit-animation: swing 2s  both infinite;  animation: swing 2s both infinite; transform-origin: 100% 70%;  }
 .icon_rb2{ -webkit-animation: swing1 2s both infinite;  animation: swing1 2s both infinite; transform-origin: 0% 70%;  }
-.icon_coin{ -webkit-animation: bounceIn1 2s  both infinite;  animation: bounceIn1 2s both infinite;  }
+.icon_coin{ -webkit-animation: bounceIn 2s  both infinite;  animation: bounceIn 2s both infinite;  }
 
 @-webkit-keyframes swing {
   0% {
@@ -391,73 +394,5 @@ img{ width: 100%; height: 100%; }
   50%,100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-  }
-}
-
-@-webkit-keyframes bounceIn1 {
-    from, 0%, 40%, 60%, 73.3%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  0% {
-    -webkit-transform: scale3d(.9, .9, .9);
-    transform: scale3d(.9, .9, .9) ;
-  }
-
-  40% {
-    -webkit-transform: scale3d(1.08, 1.08, 1.08);
-    transform: scale3d(1.08, 1.08, 1.08) ;
-  }
-
-  60% {
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
-    transform: scale3d(1.03, 1.03, 1.03) ;
-  }
-
-  73.3% {
-    opacity: 1;
-    -webkit-transform: scale3d(1.04, 1.04, 1.04);
-    transform: scale3d(1.04, 1.04, 1.04);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1) ;
-  }
-}
-
-@keyframes bounceIn1 {
-  from, 0%, 40%, 60%, 73.3%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  0% {
-    -webkit-transform: scale3d(.9, .9, .9);
-    transform: scale3d(.9, .9, .9) ;
-  }
-
-  40% {
-    -webkit-transform: scale3d(1.08, 1.08, 1.08);
-    transform: scale3d(1.08, 1.08, 1.08) ;
-  }
-
-  60% {
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
-    transform: scale3d(1.03, 1.03, 1.03) ;
-  }
-
-  73.3% {
-    opacity: 1;
-    -webkit-transform: scale3d(1.04, 1.04, 1.04);
-    transform: scale3d(1.04, 1.04, 1.04);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1) ;
   }
 }
