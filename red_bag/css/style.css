@@ -3,7 +3,7 @@ html{
   font-size: 9.2593vw;
 }
 html,body{ height: 100%; }
-body{ -webkit-text-size-adjust: none !important; }
+body{ -webkit-text-size-adjust: 100% !important; }
 body:before{ content:"author:caihuiting,design:zhangjiaxin,time:20171023"; display: none; }
 body,button,input,select,textarea{font:.14rem/1.5 PingFangTC-Regular,PingFangHK-Regular;outline:none;-webkit-font-smoothing:antialiased；}
 ul,ol{list-style:none;}em,i{font-style:normal;}
@@ -15,28 +15,11 @@ table{ width:auto;border-collapse: collapse;border-spacing: 0;}
 a{text-decoration:none;outline:none;color:#f7dfaa;}
 a,button,button:active,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
 .txt_hide{ height:1px; line-height:150; overflow:hidden;}
-.reb_box,.btn_open,.btn_clo,.inc_dtop_limg .vtime:before,.wc_iden_sign,
+.inc_dtop_limg .vtime:before,.wc_iden_sign,
 .act_ind_tit,.icon_ai_rb,.icon_ai_coin,.btn_act_inwc,.icon_spr{ background: url(../img/spr.png) no-repeat; }
 img{ width: 100%; height: 100%; }
 .wrap{ width: 10.8rem; overflow: hidden; }
-
-/*pop_rb*/
-.pendant{ width: 2.4rem; height: 2.4rem; position: fixed; right: 0rem; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%);  }
-.btn_rb{ position: absolute; left:0 ; top: 0; bottom: 0; right: 0; }
-.pd_reb_bag{ background: url(../img/spr_redbag_ani.png) no-repeat; width: 2.4rem; height: 2.4rem; background-size: 52.8rem auto; }
-
 .cover{ display: none; background: #000; opacity: .5; position: fixed; z-index: 100; left: 0; right: 0; top: 0; bottom: 0; }
-.reb_box{ background-position: 0 -3.1rem; width: 8.36rem; height: 10.43rem; margin:-5.22rem -4.18rem 0 0; position: fixed;  right: 50%; top: 50%; background-size: 10.8rem auto;   z-index: 101; }
-.rb_box_top{ height: 5.98rem; }
-.btn_clo{ width: .34rem; height: .34rem; background-size: 10.8rem auto; position: absolute; right: .33rem; top: .33rem; z-index: 2; }
-.btn_open{ background-position: -.4rem 0; position: absolute; left: 50%; top: 5.98rem; transform:translateX(-50%); display: block; width: 2.98rem; height: 2.98rem; background-size: 10.8rem auto; }
-.btn_open:active{ background-position: -3.5rem 0; }
-.logo_box{ width: 1.16rem; height: 1.16rem; border-radius: 50%; overflow: hidden; border: .02rem solid #ffe2b1; }
-.logo_box img{ width: 100%; height: 100%; }
-.rb_box_top{ position: relative; z-index: 1; color:#ffe2b1; display: flex; flex-direction: column; justify-content: center; align-items: center; }
-.logo_name{ font-size: .47rem; }
-.logo_tip{ font-size: .36rem; }
-.rb_box_tit{ font-size: .66rem; padding-top: .9rem; }
 
 
 /* v:10/26/2017  by:caihuiting */
@@ -143,7 +126,7 @@ img{ width: 100%; height: 100%; }
 .loading_pop{ font-size: .42rem; height: 3.3rem; width: 3.61rem; text-align: center; color: #fff; }
 .icon_rb1{ background-position: -6.48rem -20.5rem; width: 1.75rem; height: 1.92rem; background-size: 10.8rem auto; left: 0; top: 0; position: absolute; z-index: 2; }
 .icon_rb2{ background-position: 0 -22.4rem; width: 1.49rem; height: 1.65rem; background-size: 10.8rem auto; right: 0; top: .42rem; position: absolute; z-index: 4;}
-.icon_coin{ background-position: -8.41rem -20.5rem; width: .69rem; height: .71rem; background-size: 10.8rem auto; right: 1.14rem; top: 1.23rem; position: absolute; z-index: 5; }
+.icon_coin{ background-position: -8.41rem -20.48rem; width: .69rem; height: .71rem; background-size: 10.8rem auto; right: 1.14rem; top: 1.23rem; position: absolute; z-index: 5; }
 .icon_vodi{ background-position: -2.89rem -20.5rem; width: 1.64rem; height: 1.68rem; background-size: 10.8rem auto; left: 1.01rem; top: .01rem; position: absolute; }
 .icon_vodu{ background-position: 0 -20.5rem; width: 1.78rem; height: 1.83rem; background-size: 10.8rem auto; left: .8rem; top: 0; position: absolute; z-index: 3; }
 .loading_pop p{ padding-top: .84rem; line-height: .42rem; }
@@ -154,39 +137,27 @@ img{ width: 100%; height: 100%; }
 
 
 /* css3 */
-.pd_reb_bag.ani{ -webkit-animation: ani 1.8s steps(22) infinite;  animation: ani 1.8s steps(22) infinite; }
-@-webkit-keyframes ani{
-   0%{ background-position: 0 0; }
-   100%{ background-position: -52.8rem 0rem; }
-}
-@keyframes ani{
-   0%{ background-position: 0 0; }
-   100%{ background-position: -52.8rem 0rem; }
-}
 .act_ind_tit{ -webkit-animation: bounceIn .8s  both;  animation: bounceIn .8s both;  }
-.btn_iwel{ -webkit-animation: bounceIn 1s .8s  both;  animation: bounceIn 1s .8s both;  }
+.btn_iwel{ -webkit-animation: opacity 1s .5s  both;  animation: opacity 1s .5s both;  }
 
-@-webkit-keyframes opacity{
-  0%{ opacity: 0; }
-  100%{ opacity: 1; }
-}
-@keyframes opacity{
-  0%{ opacity: 0; }
-  100%{ opacity: 1; }
-}
-
-
-@-webkit-keyframes fadeDown{
-  0%{-webkit-transform:translate3d(0,-30rem,0);-webkit-transform:translate3d(0,-30rem,0);}
-  100%{-webkit-transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);}
-}
-@keyframes fadeDown{
-  0%{transform:translate3d(0,-30rem,0);transform:translate3d(0,-30rem,0);}
-  100%{transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-.reb_box.appear{ -webkit-animation: bounceIn 1s  both;  animation: bounceIn 1s both;  }
 @-webkit-keyframes bounceIn {
     from, 0%, 40%, 60%, 73.3%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -258,35 +229,12 @@ img{ width: 100%; height: 100%; }
 }
 
 
-.reb_box.disappear{ -webkit-animation: disappear .6s  both;  animation: disappear .6s both; }
-@-webkit-keyframes disappear{
-   0% {
-	    opacity: 1;
-	    -webkit-transform: scale(1);
-	    transform: scale(1) ;
-	}
-   to{  
-   		opacity: 0;
-    	-webkit-transform: scale(0);
-    	right: .4rem; 
-    }
-}
-@keyframes disappear{
-   0% {
-	    opacity: 1;
-	    -webkit-transform: scale(1);
-	    transform: scale(1) ;
-	}
-   to{  
-   		opacity: 0;
-    	transform: scale(0) ;
-    	right: .4rem; 
-    }
-}
+
 
 .icon_rb1{ -webkit-animation: swing 2s  both infinite;  animation: swing 2s both infinite; transform-origin: 100% 70%;  }
 .icon_rb2{ -webkit-animation: swing1 2s both infinite;  animation: swing1 2s both infinite; transform-origin: 0% 70%;  }
-.icon_coin{ -webkit-animation: bounceIn 2s  both infinite;  animation: bounceIn 2s both infinite;  }
+.icon_coin{ -webkit-animation: bounceIn1 2s  both infinite alternate;  animation: bounceIn1 2s both infinite alternate;  }
+
 
 @-webkit-keyframes swing {
   0% {
@@ -394,5 +342,173 @@ img{ width: 100%; height: 100%; }
   50%,100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes bounceIn1 {
+    from, 0%, 40%, 60%, 73.3%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+
+  40% {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08) ;
+  }
+
+  60% {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03) ;
+  }
+
+  73.3% {
+    opacity: 1;
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1) ;
+  }
+}
+
+@keyframes bounceIn1 {
+   from, 0%, 40%, 60%, 73.3%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+
+  40% {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08) ;
+  }
+
+  60% {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03) ;
+  }
+
+  73.3% {
+    opacity: 1;
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1) ;
+  }
+}
+
+/*wc_loadding*/
+.icon_wc_load,.icon_wc_shadow{ background: url(../img/spr_loading.png) no-repeat; }
+.loading{ position: relative; width: 1.8rem; height: 2.07rem; position: fixed; left: 50%; top: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%);  }
+.icon_wc_load{ width: 1.8rem; height: 1.8rem; position: absolute; left: 0; top: 0; background-size: 10.8rem auto; }
+.icon_wc_pcor{ background-position: -1.9rem 0; }
+.icon_wc_bird{ background-position: -3.8rem 0; }
+
+.icon_wc_shadow{ background-position: -5.69rem 0; width: 1.2rem; height: .27rem; position: absolute; bottom: 0; background-size: 10.8rem auto; left: 50%; margin-left: -.6rem; }
+
+.icon_wc_3d_glass,.icon_wc_pcor,.icon_wc_bird{ -webkit-animation: jump 2.1s  both infinite ;  animation: jump 2.1s both infinite;  }
+.icon_wc_pcor{-webkit-animation-delay:0.7s;animation-delay:0.7s;}
+.icon_wc_bird{-webkit-animation-delay:1.4s;animation-delay:1.4s;}
+
+.icon_wc_shadow{ -webkit-animation: scale 2.1s both infinite; animation: scale 2.1s both infinite;  }
+
+@-webkit-keyframes scale {
+  0%,16.67%,33.33%,50%,66.67%,83.34%,100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0%,33.33%,66.67%,100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    
+  }
+  16.67%,50%,83.34%{
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+  }
+}
+
+@keyframes scale {
+   0%,16.67%,33.33%,50%,66.67%,83.34%,100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0%,33.33%,66.67%,100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    
+  }
+  16.67%,50%,83.34%{
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+  }
+}
+
+
+@-webkit-keyframes jump {
+  from, 0%, 16.67%, 33.33%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  16.67% {
+    -webkit-transform: translateY(-.48rem);
+    transform: translateY(-.48rem) ;
+    opacity: 1;
+  }
+
+  33.33%,100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+@keyframes jump {
+   from, 0%, 16.67%, 33.33%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  16.67% {
+    -webkit-transform: translateY(-.48rem);
+    transform: translateY(-.48rem) ;
+    opacity: 1;
+  }
+
+  33.33%,100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
   }
 }
