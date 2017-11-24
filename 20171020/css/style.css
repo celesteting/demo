@@ -490,7 +490,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .wp_nteach_pop .pay_pop_btn{ height: 1.41rem; }
 .nteach_pop_top p.mart{ margin-top: .47rem; }
 .btn_nt_choose{ width: .48rem; height: .48rem; box-sizing: border-box; border-radius: 50%; border: 1px solid #E4E4E4; position: relative; display: inline-block; vertical-align: -0.06rem; margin-right: .12rem;}
-.btn_nt_choose.on:after{ content: ''; background-position: -3.3rem -5.8rem; width: .48rem; height: .48rem; background-size: 10.8rem auto; position: absolute; left: 0; top: 0; }
+.btn_nt_choose.on:after{ content: ''; background-position: -3.3rem -5.8rem; width: .49rem; height: .49rem; background-size: 10.8rem auto; position: absolute; left: -1px; top: -1px; }
 .wp_nteach_pop .pay_pop_btn a{ color: #979AA0; }
 .wp_nteach_pop a.btn_nteach{ color: #F73E50; border-right: 1px solid #E4E4E4; }
 .nteach_main_ltop{ width: 6.6rem; height: 11.73rem; }
