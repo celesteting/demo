@@ -496,7 +496,7 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .nteach_main_ltop{ width: 6.6rem; height: 11.73rem; }
 .nteach_page_main{ display: flex; margin-top: .6rem; }
 .icon_nt_num{ margin-top: -.02rem; position: relative; z-index: 2; width: .48rem; height: .48rem; text-align: center; line-height: .48rem; background: #FF4D4E; border-radius: 50%; font-size: .33rem; color: #fff; border: .06rem solid #F0F1F2; display: block; }
-.icon_nt_num span{ margin-top: .06rem; }
+.icon_nt_num span{ padding-top: .06rem; }
 .nteach_main_list .nteach_main_right{ position: relative; width: 7.9rem; background: #fff; margin-bottom: .6rem; padding: .51rem .28rem .4rem .47rem;}
 .nteach_main_list li:last-child .nteach_main_right{ margin-bottom: 1.3rem; }
 .nteach_main_list li:last-child .nteach_main_left{ padding-bottom: 1.3rem; }
