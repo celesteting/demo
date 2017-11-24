@@ -20,7 +20,7 @@ img{ width: 100%; height: 100%; }
 .btn_back,.nav_bot_logo,.ban_link_logo:after,.icon_tip_tt,.btn_min:after,.btn_add:after,
 .bid_tit,.icon_phone,.pd_fix_nlogo,.btn_cpw.on:after,.btn_cpw:active:after,
 .btn_arule:after,.my_ct_head .nor_tit:before,.icon_auc,.wsord_tip,.btn_cus:before,
-.btn_clo,.icon_rsucc{ background: url(../img/spr.png) no-repeat; }
+.btn_clo,.icon_rsucc,.btn_nt_choose.on:after{ background: url(../img/spr.png) no-repeat; }
 .wrap{ background-size: cover; width: 100%; color:#3B424C; padding-bottom: 1.5rem; }
 .main{position: relative;margin: 0 auto; width: 10.8rem; z-index: 5; overflow-x: hidden;}
 .ban_cont,.deal_wp{ background: #fff; }
@@ -457,7 +457,10 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .rb_pop_txt strong{ font-size: 2.4rem; margin-top: -1.1rem; }
 .btn_rb_get{ width: 6rem; height: 1.2rem; border-radius: .6rem; font-size: .56rem; background: #FEF366; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #AC3815; font-weight: bold; position: absolute; bottom: 1.8rem; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%);}
 
-.pd_tab_aucing .succ_rdes{ height: 2.01rem; }
+.pd_tab_aucing .succ_rdes{ height: 2.6rem; }
+.pd_tab_aucing .succ_record_name{ font-size: .33rem; }
+.pd_tab_aucing .succ_record_list li{ height: 3.02rem; }
+.pd_tab_aucing .succ_record_time{ margin-bottom: 0; }
 .pd_tab_aucing .succ_rleft{ -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: left; -ms-flex-align: left; align-items: flex-start; }
 .pd_tab_aucing .succ_rleft_bot{ display: -webkit-box; display: -ms-flexbox; display: flex; }
 .pd_tab_aucing .succ_ruimg{ border-radius: 0; }
@@ -480,3 +483,27 @@ a.btn_fin{ color: #1AA3FF; border-right: 1px solid #E4E4E4; }
 .pro_btip .pro_btip_name{ max-width: .9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; vertical-align: top; }
 /* 20171102 caihuiting end*/
 
+/* 20171124 caihuiting */
+.nteach_page{ padding-bottom: 0; }
+.wp_nteach_pop{ height: 5.46rem;}
+.wp_nteach_pop .nteach_pop_top{ display: flex; flex-direction: column; color: #666; font-size: .48rem; text-align: center; justify-content: center; height: 4.04rem; border-bottom: 1px solid #E4E4E4; box-sizing: border-box; }
+.wp_nteach_pop .pay_pop_btn{ height: 1.41rem; }
+.nteach_pop_top p.mart{ margin-top: .47rem; }
+.btn_nt_choose{ width: .48rem; height: .48rem; box-sizing: border-box; border-radius: 50%; border: 1px solid #E4E4E4; position: relative; display: inline-block; vertical-align: -0.06rem; margin-right: .12rem;}
+.btn_nt_choose.on:after{ content: ''; background-position: -3.3rem -5.8rem; width: .48rem; height: .48rem; background-size: 10.8rem auto; position: absolute; left: 0; top: 0; }
+.wp_nteach_pop .pay_pop_btn a{ color: #979AA0; }
+.wp_nteach_pop a.btn_nteach{ color: #F73E50; border-right: 1px solid #E4E4E4; }
+.nteach_main_ltop{ width: 6.6rem; height: 11.73rem; }
+.nteach_page_main{ display: flex; margin-top: .6rem; }
+.icon_nt_num{ margin-top: -.02rem; position: relative; z-index: 2; width: .48rem; height: .48rem; display: flex; justify-content: center; align-items: center; background: #FF4D4E; border-radius: 50%; font-size: .33rem; color: #fff; border: .06rem solid #F0F1F2; }
+.nteach_main_list .nteach_main_right{ position: relative; width: 7.9rem; background: #fff; margin-bottom: .6rem; padding: .51rem .28rem .4rem .47rem;}
+.nteach_main_list li:last-child .nteach_main_right{ margin-bottom: 1.3rem; }
+.nteach_main_list li:last-child .nteach_main_left{ padding-bottom: 1.3rem; }
+.nteach_main_lbot{ font-size: .42rem; padding-top: .4rem; }
+.nteach_main_left{ margin: 0 .49rem 0 .57rem; position: relative; padding-top: .18rem; }
+.nteach_main_list li:first-child .nteach_main_left{ margin-top: .18rem; padding-top: 0; }
+.nteach_main_list li:first-child .icon_nt_num{ margin-top: -.02rem;}
+.nteach_main_list li{ display: flex; }
+.nteach_main_left:before{ content: ''; height: 100%; width: .12rem; position: absolute; left: 50%; top: 0; transform: translateX(-50%); background: #FF4D4E; }
+.nteach_main_right:after{ position: absolute; top: .12rem; left: -.4rem; content: ''; width: 0; height: 0; border-top: .4rem solid transparent; border-right: .6rem solid #fff; border-bottom: .4rem solid transparent; }
+/* 20171124 caihuiting end */
