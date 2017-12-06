@@ -3,9 +3,9 @@ html{
   font-size: 9.2593vw;
 }
 html,body{ height: 100%; }
-body{ -webkit-text-size-adjust: none !important; }
+// body{ -webkit-text-size-adjust: none !important; }
 body:before{ content:"author:caihuiting,design:zhangjiaxin,time:20171023"; display: none; }
-body,button,input,select,textarea{font:.14rem/1.5 PingFangTC-Regular,PingFangHK-Regular;outline:none;-webkit-font-smoothing:antialiased；}
+body,button,input,select,textarea{font: PingFangTC-Regular,PingFangHK-Regular;outline:none;-webkit-font-smoothing:antialiased；}
 ul,ol{list-style:none;}em,i{font-style:normal;}
 body{margin:0;word-wrap:break-word;overflow-x:hidden;}
 ol,ul,input{margin:0; padding:0;}
@@ -18,11 +18,17 @@ a,button,button:active,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
 .reb_box,.btn_open,.btn_clo{ background: url(../img/spr_pop.png) no-repeat; }
 img{ width: 100%; height: 100%; }
 .wrap{ width: 10.8rem; overflow: hidden; }
+.pop_wrap{ position: fixed; top: 0; left: 0; bottom: 0; right: 0; }
 
 /*pop_rb*/
 .pendant{ width: 2.4rem; height: 2.4rem; position: fixed; right: 0rem; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%);  }
 .btn_rb{ position: absolute; left:0 ; top: 0; bottom: 0; right: 0; }
-.pd_reb_bag{ background: url(../img/spr_redbag_ani.png) no-repeat; width: 2.4rem; height: 2.4rem; background-size: 52.8rem auto; }
+// .pd_reb_bag{ background: url(../img/spr_redbag_ani.png) no-repeat; width: 2.4rem; height: 2.4rem; background-size: 52.8rem auto; }
+.pd_reb_bag{ width: 2.4rem; height: 2.4rem; }
+#steps{ position: absolute; width: 2.4rem; height: 2.4rem; left: 0; top: 0;}
+#steps .html{ width: 240px;  height: 240px; }
+#steps .img{  width: 5280px; height: 240px; background: url(../img/spr_redbag_ani.png) 0 0 no-repeat;  background-size: 5280px auto;  }
+
 
 .cover{ display: none; background: #000; opacity: .5; position: fixed; z-index: 100; left: 0; right: 0; top: 0; bottom: 0; }
 .reb_box{ background-position: 0 -3.1rem; width: 8.36rem; height: 10.43rem; margin:-5.22rem -4.18rem 0 0; position: fixed;  right: 50%; top: 50%; background-size: 10.8rem auto;   z-index: 101; }
@@ -41,14 +47,14 @@ img{ width: 100%; height: 100%; }
 
 
 /* css3 */
-.pd_reb_bag.ani{ -webkit-animation: ani 1.8s steps(22) infinite;  animation: ani 1.8s steps(22) infinite; }
+#steps.ani .img{ -webkit-animation: ani 1.8s steps(22) infinite;  animation: ani 1.8s steps(22) infinite; }
 @-webkit-keyframes ani{
    0%{ background-position: 0 0; }
-   100%{ background-position: -52.8rem 0rem; }
+   100%{ background-position: -5280px 0px; }
 }
 @keyframes ani{
    0%{ background-position: 0 0; }
-   100%{ background-position: -52.8rem 0rem; }
+   100%{ background-position: -5280px 0px; }
 }
 .act_ind_tit{ -webkit-animation: bounceIn .8s  both;  animation: bounceIn .8s both;  }
 .btn_iwel{ -webkit-animation: bounceIn 1s .8s  both;  animation: bounceIn 1s .8s both;  }
