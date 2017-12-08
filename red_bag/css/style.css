@@ -158,7 +158,7 @@ img{ width: 100%; height: 100%; }
 .wp_video_price:before{ background-position: -.4rem -5.08rem; width: .42rem; height: .42rem; content: ''; background-size: 10.8rem auto; margin-left: .24rem; }
 .video_price_list{ position: absolute; top: 0; left: .85rem; }
 .video_price_list li{ color: #586475; line-height: .9rem; font-size: .33rem; }
-.video_price_list li .uname{ max-width: 2.06rem; overflow: hidden; display: inline-block; vertical-align: top; text-overflow: ellipsis; white-space: nowrap; margin-right: .16rem; }
+.video_price_list li .uname{ max-width: 1.76rem; overflow: hidden; display: inline-block; vertical-align: top; text-overflow: ellipsis; white-space: nowrap; margin-right: .16rem; }
 .fc_yel{ color: #ffb100; font-weight: normal; }
 
 .tit_video_main{ position: relative; height: 1.43rem; display: flex; align-items: center; justify-content: center; color: #39424d; font-size: .45rem; margin-top: .05rem; }
@@ -190,6 +190,15 @@ img{ width: 100%; height: 100%; }
 .nav_video:active .link_nav_video{ background: rgba(0, 0, 0, 0.1); }
 /* v:12/06/2017  by:caihuiting end*/
 
+/* v:12/08/2017  by:caihuiting*/
+.act_vrule_page .main{ width: 9.92rem; margin:0 auto; padding: .55rem 0; color: #3B424C; }
+.tit_act_vrule{ font-size: .48rem; margin-bottom: .15rem;}
+.list_act_vrule{ font-size: .42rem; list-style-type: decimal; margin-left: .4rem; }
+.list_act_vrule li{ margin-bottom: .17rem; }
+.fc_grey{ color: #9DA0A6; font-weight: normal; }
+.wp_act_vtime,.wp_act_vcontact{ margin-top: .8rem; }
+.wp_act_vtime p,.wp_act_vcontact p{ font-size: .42rem; line-height: .7rem; }
+/* v:12/08/2017  by:caihuiting end*/
 
 
 /* css3 */
