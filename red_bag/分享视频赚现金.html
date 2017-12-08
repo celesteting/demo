@@ -83,13 +83,22 @@
 		<a href="#" class="link_smon">查看收益</a>
 		<a href="#" class="link_nav_video"></a>
 	</div>
-
+	<script src="js/jquery.min.js"></script>
 	<script>
-		var a = document.getElementsByTagName('a');
-		for(var i = 0; i < a.length; i++)
-		{
-		  a[i].addEventListener('touchstart',function(){},false);
-		}
+		(function(){
+			var a = document.getElementsByTagName('a');
+			for(var i = 0; i < a.length; i++)
+			{
+			  a[i].addEventListener('touchstart',function(){},false);
+			}
+			var u = navigator.userAgent;
+			if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {
+					$('body').removeClass("ios").addClass("Android");
+				} else if (u.indexOf('iPhone') > -1) {
+					$('body').removeClass("Android").addClass("ios");
+				}
+		})();
+		
 	</script>
 </body>
 </html>	

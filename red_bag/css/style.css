@@ -170,6 +170,7 @@ img{ width: 100%; height: 100%; }
 .video_list_top{ width: 9.48rem; height: 5.26rem; margin: 0 auto; overflow: hidden; position: relative; border-radius: .09rem; }
 .video_list_top img{ width: 100%; height: 100%; }
 .tit_video_top{ position: absolute; width: 9.18rem; left: 0; top: 0; padding-left: .3rem; height: 1.02rem; display: flex; align-items: center; }
+.Android .tit_video_top{ font-weight: normal; }
 .tit_video_top span{ position: relative; z-index: 2; font-size: .42rem; color: #fff; display: inline-block; max-width: 8rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; vertical-align: top; }
 .tit_video_top:before{ content: ''; position: absolute; height: 1.5rem; left: 0; top: 0; width: 100%; background: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0)); }
 .tip_video_bot{ color: #586475; font-size: .39rem;  }
@@ -667,3 +668,6 @@ img{ width: 100%; height: 100%; }
     transform: scale3d(1, 1, 1);
   }
 }
+
+
+.Android .tit_video_main,.Android .tit_video_top,.Android .tit_gmon_slist,.Android .tip_nav_video{ font-weight: normal; }
