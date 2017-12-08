@@ -157,8 +157,8 @@ img{ width: 100%; height: 100%; }
 .wp_video_price{ position: relative; display: flex; align-items: center; overflow:hidden; margin: .48rem auto 0; width: 9.78rem; height: .9rem; box-sizing: border-box; border: 1px solid #caccd0; border-radius: .09rem; }
 .wp_video_price:before{ background-position: -.4rem -5.08rem; width: .42rem; height: .42rem; content: ''; background-size: 10.8rem auto; margin-left: .34rem; }
 .video_price_list{ position: absolute; top: 0; left: .95rem; }
-.video_price_list li{ color: #586475; line-height: .9rem; font-size: .39rem; }
-.video_price_list li .uname{ max-width: 1.06rem; overflow: hidden; display: inline-block; vertical-align: top; text-overflow: ellipsis; white-space: nowrap; margin-right: .16rem; }
+.video_price_list li{ color: #586475; line-height: .9rem; font-size: .33rem; }
+.video_price_list li .uname{ max-width: 2.06rem; overflow: hidden; display: inline-block; vertical-align: top; text-overflow: ellipsis; white-space: nowrap; margin-right: .16rem; }
 .fc_yel{ color: #ffb100; font-weight: normal; }
 
 .tit_video_main{ position: relative; height: 1.43rem; display: flex; align-items: center; justify-content: center; color: #39424d; font-size: .45rem; margin-top: .05rem; }
