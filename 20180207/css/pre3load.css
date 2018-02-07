@@ -1,0 +1,719 @@
+html{
+    font-size: 15.625vw;
+}
+.author:before {
+    content: "author:caihuiting; desgin:jixueting; 2018-1-25";
+    display: none
+}
+
+.hide-txt {
+    text-indent: -9999em;
+    font-size: 0;
+    line-height: 0
+}
+
+.clearfix {
+    height: auto!important
+}
+
+em {
+    font-style: normal
+}
+
+.wp {
+    width: 100%;
+    min-width: 6.4rem;
+    color: #fff;
+    z-index: 2
+}
+
+.wp,
+.wp .wp-main {
+    position: relative
+}
+
+.wp .wp-main {
+    width: 6.4rem;
+    margin: 0 auto
+}
+
+html body {
+    line-height: 1;
+    background: #9d0412;
+}
+
+.layout-body {
+    position: relative;
+    background: url(../img/bg-pre3load.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 6.4rem auto;
+}
+
+.color-in-yel {
+    color: #fed866
+}
+
+.wp-banner {
+    text-align: center
+}
+
+.wp-banner .banner-time {
+    font-size: 0.3rem;
+    color: #fff;
+    padding-top: 1.92rem;
+    font-weight: bold;
+    letter-spacing: .04rem;
+}
+
+.wp-cont .wp-main {
+    width: 5.8rem;
+    height: 4.3rem;
+    overflow: hidden;
+    position: relative;
+    margin: 1.93rem auto 1.39rem;
+}
+
+.wp-cont .wp-main:after,
+.wp-cont .wp-main:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0.20rem;
+  height: 4.3rem;
+  background-image: url(../img/spr-pre3load.png);
+  background-position: -7.79rem 0;
+  background-size: 8rem auto;
+}
+
+.wp-cont .wp-main:before {
+    left: 0
+}
+
+.wp-cont .wp-main:after {
+    right: 0
+}
+
+
+.wp-cont .main-cont {
+  background-image: url(../img/spr-pre3load.png);
+  background-position: 0 0;
+  background-size: 8rem auto;
+  width: 5.79rem;
+  height: 4.05rem;
+  margin-top: 0.14rem;
+}
+.wp-cont .cont-hd {
+    padding-top: 0.44rem;
+    text-align: center;
+}
+
+.wp-cont .cont-hd h3 {
+  background-image: url(../img/spr-pre3load.png);
+  background-position: 0 -4.1rem;
+  background-size: 8rem auto;
+  width: 3.57rem;
+  height: 0.34rem;
+  margin: 0 auto 0.16rem;
+
+}
+
+.wp-cont .cont-hd p {
+    font-size: 0.26rem;
+    color: #e7223e;
+}
+
+.wp-cont .cont-bd p {
+    font-size: 0.24rem;
+    color: #85430a;
+    text-align: center
+}
+
+.wp-cont .cont-bd p em {
+    font-size: 0.24rem;
+    color: #e7223e;
+    vertical-align: top;
+}
+
+.btn01.btn-normal {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 0.7rem;
+    width: 2.4rem;
+    height: 0.7rem;
+    background: #f9273d;
+    font-size: 0.3rem;
+    color: #fff;
+    margin: 0.4rem auto 0.2rem;
+    border-radius: 0.35rem;
+}
+
+.btn01.btn-normal:active {
+    background: #c31225;
+}
+
+.wp-cont .cont-fd {
+    width: 4.9rem;
+    margin: 0.39rem auto 0;
+    border-top: 1px solid #e4844c;
+    font-size: 0.24rem;
+    color: #85430a;
+    text-align: center;
+    line-height: 0.77rem;
+}
+.wp-cont{ position: relative; }
+
+.wp-cont .cont-fd a {
+    color: #e62035;
+    text-decoration: none;
+}
+.wp-cont .cont-fd a:active{ text-decoration: underline; }
+
+.dog {
+  width: 1.9rem;
+  height: 2.88rem;
+  position: absolute;
+  background-image: url(../img/spr-pre3load.png);
+  background-position: -5.84rem 0;
+  background-size: 8rem auto;
+  position: absolute;
+  left: 50%;
+  bottom: -2.5rem;
+  margin-left: -.85rem;
+}
+
+.wp-footer {
+    color: #fabc60; font-size: 0.24rem;
+    position: relative; z-index: 2;
+    height: 1.1rem; display: flex; justify-content: center; align-items: center;
+}
+
+.timenav {
+    position: absolute;
+    top: 0;
+    left: .68rem;
+    text-align: center;
+    z-index: 3
+}
+
+.timenav .time-list {
+    font-size: 0
+}
+
+.timenav .time-list .hb,
+.timenav .time-list .time {
+    background-image: url(../img/spr-timenav.png);
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    background-position: -1.36rem 0;
+    background-size: 2.72rem auto;
+    width: 1.36rem;
+    height: 1.69rem;
+    margin-left: -.1rem;
+    font-size: .23rem;
+    color: #fff;
+    line-height: .26rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: .58rem;
+    text-decoration: none
+}
+
+.timenav .time-list .time p {
+    font-size: .18rem
+}
+
+.timenav .time-list .hb .date,
+.timenav .time-list .time .date {
+    display: block
+}
+
+.timenav .hb.on,
+.timenav .time-list .hb:active,
+.timenav .time-list .time.on,
+.timenav .time-list .time:active {
+    background-image: url(../img/spr-timenav.png);
+    background-position: 0 0;
+    background-size: 2.72rem auto;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-weight: 700;
+    color: #f6104c
+}
+
+.timenav .hb {
+    display: inline-block;
+    margin: -12px auto 0;
+    text-align: center;
+    position: relative
+}
+
+.timenav .hb.have .num {
+    display: block
+}
+
+.timenav .hb .num {
+    width: .42rem;
+    height: .42rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: .42rem;
+    background: #f0ea4a;
+    position: absolute;
+    top: .31rem;
+    left: .93rem;
+    font-size: .21rem;
+    font-weight: 700;
+    color: #f3171d;
+    display: none
+}
+
+.bg-wp {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.bg-wp .house {
+    top: 1.08rem;
+    height: 9.93rem;
+    background: url(../img/pre3load.png);
+    background-size: 6.4rem auto;
+}
+
+.bg-wp .firework,
+.bg-wp .house {
+    position: absolute;
+    left: 0;
+    width: 6.4rem;
+}
+
+.bg-wp .firework .fw {
+    position: absolute;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center
+}
+
+.fw01 {
+  background-image: url(../img/spr-pre3loadfirework.png);
+  background-position: 0 0;
+  background-size: 3.76rem auto;
+  width: 1.22rem;
+  height: 1.35rem;
+  top: .73rem;
+  left: -.43rem;
+}
+
+.fw02 {
+  background-image: url(../img/spr-pre3loadfirework.png);
+  background-position: -0.71rem -1.4rem;
+  background-size: 3.76rem auto;
+  width: 0.63rem;
+  height: 0.69rem;
+  left: 2.25rem;
+  top: 2.5rem;
+}
+
+.fw03 {
+  background-image: url(../img/spr-pre3loadfirework.png);
+  background-position: 0 -1.4rem;
+  background-size: 3.76rem auto;
+  width: 0.66rem;
+  height: 0.73rem;
+  left: 2.66rem;
+  top: 1.74rem;
+
+}
+
+.fw04 {
+  background-image: url(../img/spr-pre3loadfirework.png);
+  background-position: -1.27rem 0;
+  background-size: 3.76rem auto;
+  width: 1.22rem;
+  height: 1.35rem;
+  left: 3.37rem;
+  top: 2.26rem;
+}
+
+.fw05 {
+  background-image: url(../img/spr-pre3loadfirework.png);
+  background-position: -2.54rem 0;
+  background-size: 3.76rem auto;
+  width: 1.22rem;
+  height: 1.35rem;
+  left: 5.13rem;
+  top: 0.32rem;
+}
+
+
+.timenav {
+    -webkit-animation: e 1s .3s both;
+    animation: e 1s .3s both
+}
+
+.time-list .time1 {
+    -webkit-animation: a 4s linear both;
+    animation: a 4s linear both
+}
+
+.time-list .time1,
+.time-list .time2 {
+    -webkit-transform-origin: center top;
+    -ms-transform-origin: center top;
+    transform-origin: center top
+}
+
+.time-list .time2 {
+    -webkit-animation: b 4s linear both;
+    animation: b 4s linear both
+}
+
+.time-list .time3 {
+    -webkit-animation: c 4s linear both;
+    animation: c 4s linear both
+}
+
+.time-list .hb,
+.time-list .time3 {
+    -webkit-transform-origin: center top;
+    -ms-transform-origin: center top;
+    transform-origin: center top
+}
+
+.time-list .hb {
+    -webkit-animation: d 4s linear both;
+    animation: d 4s linear both;
+}
+
+@-webkit-keyframes a {
+    0% {
+        -webkit-transform: none;
+        transform: none
+    }
+    25% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg)
+    }
+    50% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg)
+    }
+    75% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg)
+    }
+    85% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg)
+    }
+}
+
+@keyframes a {
+    0% {
+        -webkit-transform: none;
+        transform: none
+    }
+    25% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg)
+    }
+    50% {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(2deg)
+    }
+    75% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg)
+    }
+    85% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg)
+    }
+}
+
+@-webkit-keyframes b {
+    0% {
+        -webkit-transform: none;
+        transform: none
+    }
+    25% {
+        -webkit-transform: rotate(-3deg) translate3d(5px, 0, 0);
+        transform: rotate(-3deg) translate3d(5px, 0, 0)
+    }
+    50% {
+        -webkit-transform: rotate(2deg) translate3d(-5px, 0, 0);
+        transform: rotate(2deg) translate3d(-5px, 0, 0)
+    }
+    75% {
+        -webkit-transform: rotate(-2deg) ;
+        transform: rotate(-2deg) ;
+    }
+    85% {
+        -webkit-transform: rotate(1deg) ;
+        transform: rotate(1deg);
+    }
+}
+
+@keyframes b {
+    0% {
+        -webkit-transform: none;
+        transform: none
+    }
+    25% {
+        -webkit-transform: rotate(-3deg) translate3d(5px, 0, 0);
+        transform: rotate(-3deg) translate3d(5px, 0, 0)
+    }
+    50% {
+        -webkit-transform: rotate(2deg) translate3d(-5px, 0, 0);
+        transform: rotate(2deg) translate3d(-5px, 0, 0)
+    }
+    75% {
+        -webkit-transform: rotate(-2deg) ;
+        transform: rotate(-2deg) ;
+    }
+    85% {
+        -webkit-transform: rotate(1deg) ;
+        transform: rotate(1deg);
+    }
+}
+
+@-webkit-keyframes c {
+    0%,
+    50% {
+        -webkit-transform: none;
+        transform: none
+    }
+    25% {
+        -webkit-transform: rotate(-8deg) translate3d(11px, 0, 0);
+        transform: rotate(-8deg) translate3d(11px, 0, 0)
+    }
+    75% {
+        -webkit-transform: rotate(8deg) translateZ(0);
+        transform: rotate(8deg) translateZ(0)
+    }
+    95% {
+        -webkit-transform: rotate(-1deg) translateZ(0);
+        transform: rotate(-1deg) translateZ(0)
+    }
+}
+
+@keyframes c {
+    0%,
+    50% {
+        -webkit-transform: none;
+        transform: none
+    }
+    25% {
+        -webkit-transform: rotate(-8deg) translate3d(11px, 0, 0);
+        transform: rotate(-8deg) translate3d(11px, 0, 0)
+    }
+    75% {
+        -webkit-transform: rotate(8deg) translateZ(0);
+        transform: rotate(8deg) translateZ(0)
+    }
+    95% {
+        -webkit-transform: rotate(-1deg) translateZ(0);
+        transform: rotate(-1deg) translateZ(0)
+    }
+}
+
+@-webkit-keyframes d {
+    0% {
+        -webkit-transform: none;
+        transform: none
+    }
+    25% {
+        -webkit-transform: rotate(-10deg) translate3d(20px, 0, 0);
+        transform: rotate(-10deg) translate3d(20px, 0, 0)
+    }
+    50% {
+        -webkit-transform: none;
+        transform: none
+    }
+    65% {
+        -webkit-transform: rotate(8deg) translate3d(-.1rem, 0, 0);
+        transform: rotate(8deg) translate3d(-.1rem, 0, 0)
+    }
+    85% {
+        -webkit-transform: rotate(-2deg) ;
+        transform: rotate(-2deg);
+    }
+}
+
+@keyframes d {
+    0% {
+        -webkit-transform: none;
+        transform: none
+    }
+    25% {
+        -webkit-transform: rotate(-10deg) translate3d(20px, 0, 0);
+        transform: rotate(-10deg) translate3d(20px, 0, 0)
+    }
+    50% {
+        -webkit-transform: none;
+        transform: none
+    }
+    65% {
+        -webkit-transform: rotate(8deg) translate3d(-.1rem, 0, 0);
+        transform: rotate(8deg) translate3d(-.1rem, 0, 0)
+    }
+    85% {
+        -webkit-transform: rotate(-2deg) ;
+        transform: rotate(-2deg);
+    }
+}
+
+.time-list:hover .hb,
+.time-list:hover .time {
+    -webkit-animation: none;
+    animation: none
+}
+
+.ani .wp-banner .banner-time {
+    -webkit-animation: e .6s .8s both;
+    animation: e .6s .8s both
+}
+
+.ani .wp-cont {
+    -webkit-animation: e 1s 1.2s both;
+    animation: e 1s 1.2s both
+}
+
+.ani .wp-cont .wp-main {
+    -webkit-animation: f 1.6s 1.8s both;
+    animation: f 1.6s 1.8s both
+}
+
+@-webkit-keyframes e {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes e {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes f {
+    0% {
+        width: .21rem
+    }
+    to {
+        width: 5.8rem;
+    }
+}
+
+@keyframes f {
+    0% {
+        width: .21rem
+    }
+    to {
+        width: 5.8rem;
+    }
+}
+
+.ani .bg-wp .fw01 {
+    -webkit-animation: g .5s 2s both;
+    animation: g .5s 2s both
+}
+
+.ani .bg-wp .fw02 {
+    -webkit-animation: g .6s 2.3s both;
+    animation: g .6s 2.3s both
+}
+
+.ani .bg-wp .fw03 {
+    -webkit-animation: g .8s 2.6s both;
+    animation: g .8s 2.6s both
+}
+
+.ani .bg-wp .fw04 {
+    -webkit-animation: g .6s 1.8s both;
+    animation: g .6s 1.8s both
+}
+
+.ani .bg-wp .fw05 {
+    -webkit-animation: g .9s 2.2s both;
+    animation: g .9s 2.2s both
+}
+
+@-webkit-keyframes g {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes g {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+/*.ani .bg-wp .house {
+    -webkit-animation: e 1s both;
+    animation: e 1s both
+}
+*/
+.dog{ -webkit-animation: Up .9s 1.2s both; animation: Up .9s 1.2s both }
+@-webkit-keyframes Up {
+    0% {
+        opacity: 0;
+        -webkit-transform: transform: translateY(2rem);
+        transform: translateY(2rem);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: transform: translateY(0rem);
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes Up {
+    0% {
+        opacity: 0;
+        -webkit-transform: transform: translateY(2rem);
+        transform: translateY(2rem);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: transform: translateY(0rem);
+        transform: translateY(0rem);
+    }
+}
