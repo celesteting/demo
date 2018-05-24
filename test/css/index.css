@@ -24,7 +24,8 @@ strong{ font-weight: normal; }
 .fc-white{ color: #fff; font-weight: normal; }
 .link-anor{ position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: 2; }
 html,body{ height: 100%; }
-.wrap{ min-height: 100%; line-height: 1; background: url(../img/bg.jpg) no-repeat #398b25; background-size: 6.4rem auto; width: 6.4rem; overflow:hidden; }
+.wrap{ pointer-events: none; min-height: 100%; line-height: 1; background: url(../img/bg.jpg) no-repeat #398b25; background-size: 6.4rem auto; width: 6.4rem; overflow:hidden; }
+.wrap.noscroll{ overflow: hidden; position: fixed;}
 .main { width: 6.4rem; margin: 0 auto; font-size: .26rem; color: #fff; position: relative;}
 .footer{ position: relative; box-sizing: border-box; height: 1.08rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; color: #2e3e11; font-size: 0.24rem; }
 .footer:after{ content: ''; width: 12.8rem; height: .02rem; position: absolute; top: 0; left: -50%; background: #2e3e11; -webkit-transform: scale(.5); transform: scale(.5); }
@@ -35,7 +36,7 @@ html,body{ height: 100%; }
 .banner-wrap .tip-ban{ background: url(../slice/tip.png) no-repeat; text-align: center; width: 4.7rem; margin: 0 auto; font-weight: bold; color: #4b2b13; font-size: 0.3rem; background-size: 4.7rem auto; height: 0.44rem; line-height: .44rem; }
 .banner-wrap .tip-ban span{ margin-left: .23rem; }
 
-.search-wp{ z-index: 101; font-size: .24rem; position: relative; border-radius: .1rem .1rem 0 0; background: rgba(12,33,10,.6); width: 6.0rem; margin: 0 auto; height: .68rem; display: flex; align-items: center; }
+.search-wp{ z-index: 101; left: .2rem; font-size: .24rem; position: absolute; top: 2.96rem; border-radius: .1rem .1rem 0 0; background: rgba(12,33,10,.6); width: 6.0rem; margin: 0 auto; height: .68rem; display: flex; align-items: center; }
 .search-wp .item-search{ position: relative; width: 25%; height: .68rem; color: #b58c53; text-align: center; }
 .search-wp .item-search .txt-item-search{ position: relative; height: 100%; display: flex; justify-content: center; align-items: center; }
 .search-wp .item-search .txt-item-search .icon-rock{ display: inline-block; width: 0.12rem; height: 0.07rem; background: url(../slice/rock.png) no-repeat; background-size: .12rem auto; margin-left: .06rem;  }
@@ -43,7 +44,7 @@ html,body{ height: 100%; }
 .search-wp .item-search.cur .txt-item-search{ color: #ffaa00; }
 .search-wp .item-search.cur .txt-item-search .icon-rock{ background: url(../slice/rock_hover.png) no-repeat; background-size: .12rem auto;  }
 .search-wp .item-team-search.cur,.search-wp .item-time-search.cur{ background: #296323; }
-.team-search-wp{ display: none; background: #296323; width: 6rem; position: absolute; left: -1.5rem; height: 2.65rem; overflow-y: auto; overflow-x: hidden; }
+.team-search-wp{ display: none; background: #296323; width: 6rem; position: absolute; left: -1.5rem; height: 2.65rem; overflow-y: auto; overflow-x: hidden; top: .67rem; }
 .list-team-search{ font-size: 0; padding: 0.3rem 0 0 .2rem; }
 .list-team-search li{ font-size: .22rem; margin: 0 .25rem .3rem 0; color: #fff; display: inline-block; width: 1.2rem; height: 0.5rem; line-height: 0.5rem; position: relative; }
 .list-team-search li .team-char{ line-height: .28rem; color: #17460d; left: 0; top: -.28rem; height: .28rem; text-align: left; width: 100%; position: absolute; }
@@ -64,7 +65,7 @@ html,body{ height: 100%; }
 .tab-time-search .date.cur{ color: #ffaa00; }
 .search-wp.fix{ border-radius: 0; background: rgba(12,33,10,.9); position: fixed; left: 50%; margin-left: -3rem; top: 0; }
 
-.match-list-wp{ border-radius: 0 0 .1rem .1rem; background: rgba(12,33,10,.6); width: 6.0rem; margin: 0 auto; }
+.match-list-wp{ border-radius: 0 0 .1rem .1rem; background: rgba(12,33,10,.6); width: 6.0rem; margin: .68rem auto 0; }
 .list-match li{ color: #fff; font-size: 0.24rem; height: 2.12rem; position: relative; display: flex; align-items: center; justify-content: space-between; padding: 0 .2rem; }
 .list-match li:after,.list-match li:first-child:after{ content: ''; width: 11.2rem; height: .02rem; background: #215916; bottom: 0px; position: absolute; left: .2rem; -webkit-transform: scale(.5); transform: scale(.5); -webkit-transform-origin: 0 100%; transform-origin: 0 100%; }
 .list-match li:first-child:after{ bottom: auto; top: 0px; }
@@ -145,7 +146,7 @@ html,body{ height: 100%; }
 
 
 /*pop*/
-.cover{ position: fixed; left: 0; top: 0; bottom: 0; right: 0; background: #000; opacity: .5; z-index: 99;}
+.cover{ pointer-events: none; position: fixed; left: 0; top: 0; bottom: 0; right: 0; background: #000; opacity: .5; z-index: 99;}
 .pop-act{ line-height: 1; position: fixed; z-index: 101; width: 5.28rem; height: 5.12rem; border-radius: 0.15rem; background: #3e29de; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%); left: 50%; top: 50%; }
 .wp-price{ width: 1.41rem; height: 1.73rem; margin: 0 auto 0; position: relative; }
 .pop-act .tit-pop{ font-size: 0.32rem; font-weight: bold; color: #f9de00; text-align: center; padding: .5rem 0 .42rem; }
