@@ -13,7 +13,7 @@ body:before{ content: 'author:caihuiting,design:jixueting,time:20180602'; displa
 
 .page{left: -9999px;}
 .page.show{z-index: 5;left: 0;}
-.page.hide{z-index: 4;left: 0;}
+.page.hide-wp{z-index: 4;left: 0;}
 
 .page_btns{position: absolute;z-index: 10;right: 26px;top: 50%;margin-top: -70px;}
 .page_btns a{display: block;position: relative;width: 20px;height: 20px;margin-bottom: 10px;}
@@ -119,7 +119,7 @@ body:before{ content: 'author:caihuiting,design:jixueting,time:20180602'; displa
 .list-rule li .link-rule{ color: #fffd59; }
 .list-rule li .link-rule:hover{ text-decoration: underline; }
 .list-page-item{ display: none; }
-.hide{ display: none; }
+.hide-wp{ display: none; }
 .show{ display: block; }
 .wp-star .icon-star01{ left: 628px; top: 233px; position: absolute; background-image: url(../img/spr-star.png?1528442146286); background-position: -1804px 0px; background-repeat: no-repeat; width: 818px; height: 332px; }
 .wp-star .icon-star02{ left: 193px; top: 73px; position: absolute; background-image: url(../img/spr-star.png?1528442146286); background-position: 0px -1028px; background-repeat: no-repeat; width: 1620px; height: 444px; }
@@ -338,7 +338,7 @@ body:before{ content: 'author:caihuiting,design:jixueting,time:20180602'; displa
 .banner .tip01-ban{ -webkit-animation: fadeLeft .5s .3s both; animation: fadeLeft .5s .3s both; }
 .banner .tip02-ban{ -webkit-animation: fadeLeft .5s .6s both; animation: fadeLeft .5s .6s both; }
 .list-page{ -webkit-animation: fadeUp .5s .8s both; animation: fadeUp .5s .8s both; }
-.hide.item-page-animation,.item-page-animation{ opacity: 0; filter: alpha(opacity=0); display: none; }
+.hide-wp.item-page-animation,.item-page-animation{ opacity: 0; filter: alpha(opacity=0); display: none; }
 .show.item-page-animation{ opacity: 1; filter: alpha(opacity=100); display: block; }
 
 .show.item-page-animation.item-page-animation01 .icon-animation-num01{ -webkit-animation: bounceIn .5s  both; animation: bounceIn .5s  both; }

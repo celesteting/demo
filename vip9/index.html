@@ -11,6 +11,20 @@
 </head>
 <body>
 	
+	<div class="img-wp" style="display: none;">
+		<img src="img/bg.jpg" alt=""/>
+		<img src="img/spr-animation1.png" alt=""/>
+		<img src="img/spr-animation2.png" alt=""/>
+		<img src="img/spr-animation3.png" alt=""/>
+		<img src="img/spr-animation4.png" alt=""/>
+		<img src="img/spr-animation5.png" alt=""/>
+		<img src="img/spr-animation6.png" alt=""/>
+		<img src="img/spr-animation7.png" alt=""/>
+		<img src="img/spr-animation8.png" alt=""/>
+		<img src="img/spr-animation9.png" alt=""/>
+		<img src="img/spr.png" alt=""/>
+	</div>
+
 	<!-- 页面加载 -->
 	<div class="loading">
 		<i class="icon-loading-star"></i>
@@ -40,7 +54,7 @@
 			<div class="cover-wp">
 				<div class="page-cont">
 					<div class="list-page-animation">
-						<div class="item-page-animation item-page-animation01 hide" style="display: ;">
+						<div class="item-page-animation item-page-animation01 " style="display: ;">
 							<i class="icon-animation-num icon-animation-num01"></i>
 							<i class="icon-animation-line01 icon-animation-line"></i>
 							<i class="icon-animation-line02 icon-animation-line"></i>
@@ -488,12 +502,12 @@
 		            clearTimeout(timer);
 		            pageControl.isIng = true;
 		            idx = (idx + pageControl.len) % pageControl.len;
-		            $pages.removeClass("show hide hide_prev show_prev hide_next  show_next");
+		            $pages.removeClass("show hide-wp hide_prev show_prev hide_next  show_next");
 		            $pageBtns.removeClass("cur").eq(idx).addClass("cur");
 		            if (idx < pageControl.cur) {
-		                $pages.eq(pageControl.cur).addClass("hide hide_prev").end().eq(idx).addClass("show show_prev");
+		                $pages.eq(pageControl.cur).addClass("hide-wp hide_prev").end().eq(idx).addClass("show show_prev");
 		            } else {
-		                $pages.eq(pageControl.cur).addClass("hide hide_next").end().eq(idx).addClass("show show_next");
+		                $pages.eq(pageControl.cur).addClass("hide-wp hide_next").end().eq(idx).addClass("show show_next");
 		            }
 		            pageControl.cur = idx;
 		            if (isCss3)
@@ -554,9 +568,9 @@
 			            idx = (idx + animationControl.len) % animationControl.len;
 			            $animation.removeClass("show ");
 			            if (idx < animationControl.cur) {
-			                $animation.eq(animationControl.cur).addClass("hide").end().eq(idx).addClass("show ");
+			                $animation.eq(animationControl.cur).addClass("hide-wp").end().eq(idx).addClass("show ");
 			            } else {
-			                $animation.eq(animationControl.cur).addClass("hide").end().eq(idx).addClass("show ");
+			                $animation.eq(animationControl.cur).addClass("hide-wp").end().eq(idx).addClass("show ");
 			            }
 			            animationControl.cur = idx;
 			            
