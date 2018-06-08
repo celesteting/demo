@@ -39,8 +39,8 @@ body:before{ content: 'author:caihuiting,design:jixueting,time:20180602'; displa
 .banner .tit-ban i{ width: 483px; height: 107px; width: 483px; height: 107px; position: absolute; background-image: url(../img/spr.png?1528442146286); background-position: 0px -498px; background-repeat: no-repeat; left: 0; top: 0; }
 .no_css3 .banner .tit-ban i{ display: none; }
 .banner .tip02-ban{ color: #7ea1fb; font-size: 28px; text-align: center; }
-.list-page-item01{ text-align: center;   margin-top: 70px; font-size: 0; }
-.list-page-item01 .item-card{ position: relative;  line-height: 1; font-size: 14px; width: 380px; height: 430px; border-radius: 10px; overflow: hidden; display: inline-block; }
+.list-page-item01{ text-align: center;   margin-top: 70px; margin-left: 100px; font-size: 0; }
+.list-page-item01 .item-card{ position: relative;  line-height: 1; font-size: 14px; width: 380px; height: 430px; border-radius: 10px; overflow: hidden; float: left; }
 .list-page-item01 .item-card .detail-card{ margin-top: -1px; padding: 22px 26px 0; background: #fff; border-radius: 0 0 10px 10px; height: 166px; }
 .list-page-item01 .item-card .info-card{ position: relative; width: 380px; height: 202px; padding-top: 42px; background-image: url(../img/spr.png?1528442146286); background-position: 0px 0px; background-repeat: no-repeat; }
 .list-page-item01 .item-card.new .info-card{ background-image: url(../img/spr.png?1528442146286); background-position: -385px 0px; background-repeat: no-repeat; }
@@ -76,8 +76,8 @@ body:before{ content: 'author:caihuiting,design:jixueting,time:20180602'; displa
 .list-page-item .head-page-item{ padding-top: 40px; text-align: center; height: 99px; }
 .list-page-item .head-page-item .tit{ color: #fefeff; font-size: 30px; font-weight: bold;  }
 .list-page-item .head-page-item .tip{ margin-top: 18px; color: #7ea1fb; font-size: 22px; }
-.list-purchase{ font-size: 0; text-align: center;  }
-.list-purchase li{ margin: 0 5px; display: inline-block; font-size: 14px; width: 220px; height: 340px; border-radius: 10px; }
+.list-purchase{ font-size: 0; text-align: center; margin-left: 40px; }
+.list-purchase li{ margin: 0 5px; float: left; font-size: 14px; width: 220px; height: 340px; border-radius: 10px; }
 .list-purchase li p{ line-height: 1; height: auto; }
 .list-purchase li .item-purchase-top{ height: 156px; position: relative; width: 220px; overflow: hidden;}
 .list-purchase li .item-purchase-top .img-card{ text-align: left; padding: 47px 25px 0; height: 109px; }
@@ -101,8 +101,8 @@ body:before{ content: 'author:caihuiting,design:jixueting,time:20180602'; displa
 .list-purchase li .item-purchase-top .hover-box img{ width: 100%; height: 100%; }
 .list-purchase li .item-purchase-top:hover .hover-box{ top: 0; }
 .list-purchase li .item-purchase-top .hover-box .mark-rb{ content: ''; width: 58px; height: 57px; position: absolute; right: 0; top: 0; background-image: url(../img/spr.png?1528442146286); background-position: -692px -249px; background-repeat: no-repeat; }
-.list-welfare{ font-size: 0; text-align: center; }
-.list-welfare li{ font-size: 14px; color: #959595; width: 290px; height: 340px; margin: 0 10px; border-radius: 10px; display: inline-block; }
+.list-welfare{ font-size: 0; text-align: center; margin-left: 30px; }
+.list-welfare li{ font-size: 14px; color: #959595; width: 290px; height: 340px; margin: 0 10px; border-radius: 10px; float: left; }
 .list-welfare li .item-welfare-top{ width: 290px; height: 182px; }
 .list-welfare li .item-welfare-top img{ width: 100%; height: 100%; }
 .list-welfare li .item-welfare-bot{ background: #fff; margin-top: -1px; padding: 25px 0 0; height: 134px; }
@@ -338,8 +338,9 @@ body:before{ content: 'author:caihuiting,design:jixueting,time:20180602'; displa
 .banner .tip01-ban{ -webkit-animation: fadeLeft .5s .3s both; animation: fadeLeft .5s .3s both; }
 .banner .tip02-ban{ -webkit-animation: fadeLeft .5s .6s both; animation: fadeLeft .5s .6s both; }
 .list-page{ -webkit-animation: fadeUp .5s .8s both; animation: fadeUp .5s .8s both; }
-.hide-wp.item-page-animation,.item-page-animation{ opacity: 0; filter: alpha(opacity=0); display: none; }
-.show.item-page-animation{ opacity: 1; filter: alpha(opacity=100); display: block; }
+.hide-wp.item-page-animation{ opacity: 0; filter: alpha(opacity=0); display: none; }
+.item-page-animation{ opacity: 0; filter: alpha(opacity=0); visibility: hidden; }
+.show.item-page-animation{ opacity: 1; filter: alpha(opacity=100); display: block; visibility: visible; }
 
 .show.item-page-animation.item-page-animation01 .icon-animation-num01{ -webkit-animation: bounceIn .5s  both; animation: bounceIn .5s  both; }
 .show.item-page-animation.item-page-animation01 .icon-animation-line{ -webkit-animation: meteor2 .4s  both; animation: meteor2 .4s  both; }
